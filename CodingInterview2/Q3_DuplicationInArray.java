@@ -54,8 +54,6 @@ public class Q3_DuplicationInArray {
     }
 
 
-
-
     public static void main(String[] args) {
         int[] array = {1, 5, 4, 3, 2, 1, 5, 1, 15, 12, 5, 13, 5, 22, 5, 5};
         System.out.println(findDuplicationNumber(array));

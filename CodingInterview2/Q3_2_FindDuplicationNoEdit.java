@@ -10,12 +10,12 @@ public class Q3_2_FindDuplicationNoEdit {
      * 负数  - 输入无效，或者数组中没有重复的数
      * @author sw
      * @analysis 利用二分法查找重复数字
+     * @thoyght 统计二分思想
      * @see 问题描述：不修改数组找出重复的数字
      * 题目：在一个长度为n+1的数组里的所有数字都在1到n的范围内，所以数组中至
      * 少有一个数字是重复的。请找出数组中任意一个重复的数字，但不能修改输入的
      * 数组。例如，如果输入长度为8的数组{2, 3, 5, 4, 3, 2, 6, 7}，那么对应的
      * 输出是重复的数字2或者3
-     * @thoyght 统计二分思想
      */
     public static int getDuplication(int[] numbers, int length) {
         if (numbers == null || length <= 0) {
