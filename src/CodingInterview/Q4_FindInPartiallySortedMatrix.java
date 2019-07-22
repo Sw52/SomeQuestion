@@ -1,4 +1,4 @@
-package CodingInterview2;
+package CodingInterview;
 
 
 public class Q4_FindInPartiallySortedMatrix {

@@ -1,4 +1,4 @@
-package CodingInterview2;
+package CodingInterview;
 
 import java.util.Arrays;
 
