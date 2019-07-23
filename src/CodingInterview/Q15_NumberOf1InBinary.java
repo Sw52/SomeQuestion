@@ -32,5 +32,8 @@ public class Q15_NumberOf1InBinary {
         int x = (int)b;
         System.out.println(x);
 
+        System.out.println(Integer.toBinaryString(-2));
+        System.out.println(Integer.toBinaryString(2));
+
     }
 }
