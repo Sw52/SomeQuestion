@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7df3224-ba9f-4a5f-a280-0231161eb4c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/Q16_Power.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/Q17_Print1ToMaxOfNDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/Q18_01_DeleteNodeInList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/Q21_ReorderArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q15_NumberOf1InBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q15_NumberOf1InBinary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/MyApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q6_PrintListInReversedOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q6_PrintListInReversedOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q15_NumberOf1InBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q15_NumberOf1InBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q6_PrintListInReversedOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q6_PrintListInReversedOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,58 +28,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q14_CuttingRope.java">
+        <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q21_ReorderArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q15_NumberOf1InBinary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
+            <state relative-caret-position="694">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q16_Power.java">
+        <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q17_Print1ToMaxOfNDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="324">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CodingInterview/j.java">
+        <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q15_NumberOf1InBinary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="223">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodingInterview/Sort.java">
+        <entry file="jar:///usr/java/jdk1.8.0_211/src.zip!/java/lang/System.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+            <state relative-caret-position="324">
+              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q6_PrintListInReversedOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodingInterview/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/java/jdk1.8.0_211/src.zip!/com/sun/org/apache/xalan/internal/xsltc/util/IntegerArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -152,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/CodingInterview/Q3_DuplicationInArray.java" />
         <option value="$PROJECT_DIR$/src/CodingInterview/Q4_FindInPartiallySortedMatrix.java" />
         <option value="$PROJECT_DIR$/src/CodingInterview/Q5_ReplaceSpaces.java" />
-        <option value="$PROJECT_DIR$/src/CodingInterview/Q6_PrintListInReversedOrder.java" />
         <option value="$PROJECT_DIR$/src/CodingInterview/Q7_ConstructBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/CodingInterview/Q10_Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/CodingInterview/Q11_MinNumberInRotatedArray.java" />
@@ -162,16 +168,24 @@
         <option value="$PROJECT_DIR$/src/CodingInterview/数列求和.java" />
         <option value="$PROJECT_DIR$/src/CodingInterview/Q14_CuttingRope.java" />
         <option value="$PROJECT_DIR$/src/CodingInterview/Sort.java" />
-        <option value="$PROJECT_DIR$/src/CodingInterview/Q15_NumberOf1InBinary.java" />
         <option value="$PROJECT_DIR$/src/CodingInterview/Q16_Power.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/j.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/Q17_Print1ToMaxOfNDigits.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/Q6_PrintListInReversedOrder.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/Q18_01_DeleteNodeInList.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/kk.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/Q21_ReorderArray.java" />
+        <option value="$PROJECT_DIR$/src/CodingInterview/Q15_NumberOf1InBinary.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="1055" />
+    <option name="x" value="1920" />
+    <option name="y" value="-2" />
+    <option name="width" value="1440" />
+    <option name="height" value="902" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -179,8 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,6 +215,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,33 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyApplication">
-    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingInterview.MyApplication" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodingInterview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q14_CuttingRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingInterview.Q14_CuttingRope" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodingInterview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q15_NumberOf1InBinary">
     <configuration name="Q15_NumberOf1InBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodingInterview.Q15_NumberOf1InBinary" />
       <module name="interviewQuestion" />
@@ -273,8 +261,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q16_Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingInterview.Q16_Power" />
+    <configuration name="Q18_01_DeleteNodeInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingInterview.Q18_01_DeleteNodeInList" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
@@ -286,8 +274,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingInterview.Sort" />
+    <configuration name="Q20_NumericStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingInterview.Q20_NumericStrings" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodingInterview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q21_ReorderArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingInterview.Q21_ReorderArray" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodingInterview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q6_PrintListInReversedOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingInterview.Q6_PrintListInReversedOrder" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
@@ -301,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyApplication" />
-        <item itemvalue="Application.Q16_Power" />
         <item itemvalue="Application.Q15_NumberOf1InBinary" />
-        <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.Q14_CuttingRope" />
+        <item itemvalue="Application.Q21_ReorderArray" />
+        <item itemvalue="Application.Q20_NumericStrings" />
+        <item itemvalue="Application.Q18_01_DeleteNodeInList" />
+        <item itemvalue="Application.Q6_PrintListInReversedOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -325,18 +339,22 @@
       <workItem from="1563751219918" duration="16617000" />
       <workItem from="1563795974719" duration="3804000" />
       <workItem from="1563838320872" duration="4676000" />
-      <workItem from="1563880035240" duration="1278000" />
+      <workItem from="1563880035240" duration="1661000" />
+      <workItem from="1563923533762" duration="3198000" />
+      <workItem from="1564022859221" duration="9485000" />
+      <workItem from="1564229509002" duration="1575000" />
+      <workItem from="1564395070832" duration="633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51684000" />
+    <option name="totallyTimeSpent" value="66958000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="1920" y="-2" width="1440" height="902" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1134477" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15781923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -345,17 +363,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39327297" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39848486" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47089264" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39740822" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32988358" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2262931" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22570194" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.23333333" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.23326133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -374,6 +392,78 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/src" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/CodingInterview2/Q4_FindInPartiallySortedMatrix.java" />
@@ -422,13 +512,6 @@
     <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q5_ReplaceSpaces.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q6_PrintListInReversedOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
           <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
@@ -483,6 +566,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/MyApplication.java" />
     <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q14_CuttingRope.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -490,10 +574,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q15_NumberOf1InBinary.java">
+    <entry file="file:///tmp/evince-2899/image.SUDB5Z.png" />
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q16_Power.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="594">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -511,6 +596,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/kk.java" />
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q18_01_DeleteNodeInList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="96" column="19" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.8.0_211/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q6_PrintListInReversedOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -550,17 +675,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q16_Power.java">
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q21_ReorderArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="694">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CodingInterview/j.java">
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q17_Print1ToMaxOfNDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="324">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodingInterview/Q15_NumberOf1InBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>

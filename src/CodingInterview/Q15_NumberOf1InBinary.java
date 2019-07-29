@@ -18,7 +18,11 @@ public class Q15_NumberOf1InBinary {
             }
         }
         else if(n<0){
-            //输入负数时有误
+            //注意对负数的处理
+            while (n < 0) {
+                ++count;
+                n = (n - 1) & n;
+            }
         }
 
         return count;
@@ -26,14 +30,16 @@ public class Q15_NumberOf1InBinary {
 
     public static void main(String[] args) {
         System.out.println(numberOf1(5));
+
+
+        System.out.println(Integer.toBinaryString(-2147483648));
+        System.out.println(Integer.toBinaryString(-2147483648-1));
         System.out.println(numberOf1(-2147483648));
-        Byte b = Byte.valueOf(Integer.toBinaryString(-2147483648).substring(0,2));
-        System.out.println(b);
-        int x = (int)b;
-        System.out.println(x);
 
         System.out.println(Integer.toBinaryString(-2));
-        System.out.println(Integer.toBinaryString(2));
+        System.out.println(Integer.toBinaryString(-2-1));
+        System.out.println(numberOf1(-2));
+
 
     }
 }

@@ -3,21 +3,10 @@ package CodingInterview;
 import java.util.ArrayList;
 
 
-/**
- * 定义LinkNode类
- */
-class ListNode {
-    int val;    //该节点值
-
-    ListNode next = null; //该节点指向下一个节点的指针
-
-    ListNode(int val) {     //带参构造函数
-        this.val = val;
-    }
-}
-
-
 public class Q6_PrintListInReversedOrder {
+
+
+
 
     /**
      * @param listNode
