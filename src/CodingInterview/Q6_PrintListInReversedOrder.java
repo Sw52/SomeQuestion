@@ -37,6 +37,15 @@ public class Q6_PrintListInReversedOrder {
             head = head.next;
         }
         return res;
+
+        /*
+        下方是递归实现
+         */
+//        if(listNode.next!=null){
+//            printListFromTailToHead(listNode.next);
+//        }
+//        System.out.println(listNode.val);
+//        return null;
     }
 
 
@@ -53,6 +62,11 @@ public class Q6_PrintListInReversedOrder {
         listNode4.next = listNode5;
 
         System.out.println(printListFromTailToHead(listNode1));
+
+        /*
+        递归实现
+         */
+        //        printListFromTailToHead(listNode1);
     }
 
 }
