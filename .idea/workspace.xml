@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7df3224-ba9f-4a5f-a280-0231161eb4c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sw/BinarySerach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Sort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySerach">
+  <component name="RunManager" selected="Application.Sort">
     <configuration name="两数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.两数之和" />
       <module name="interviewQuestion" />
@@ -129,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySerach" />
         <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.BinarySerach" />
         <item itemvalue="Application.两数之和" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
@@ -172,7 +169,7 @@
       <workItem from="1565277322562" duration="5402000" />
       <workItem from="1565314827766" duration="1225000" />
       <workItem from="1565333572255" duration="25000" />
-      <workItem from="1565419476095" duration="2574000" />
+      <workItem from="1565419476095" duration="4567000" />
     </task>
     <servers />
   </component>
@@ -259,46 +256,6 @@
           <url>jar:///usr/local/java/jdk1.8.0_211/src.zip!/java/lang/ThreadLocal.java</url>
           <line>168</line>
           <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

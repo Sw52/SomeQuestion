@@ -1,6 +1,5 @@
 package sw;
 
-import com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
 
 import java.sql.DataTruncation;
 import java.util.Arrays;
@@ -66,17 +65,19 @@ public class Sort {
      * 排序方式：   In-Place
      */
     public static int[] selectionSort(int[] array) {
-        for (int i = 0; i < array.length - 1; i++) {
-            int indexMin = i;
+        if (array == null)
+            return null;
+        for (int i = 0; i < array.length; i++) {
+            int IndexMin = i;
             for (int j = i + 1; j < array.length; j++) {
-                if (array[j] < array[indexMin]) {
-                    indexMin = j;
+                if (array[IndexMin] > array[j]) {
+                    IndexMin = j;
                 }
             }
-            if (indexMin != i) {
-                int tmp = array[i];
-                array[i] = array[indexMin];
-                array[indexMin] = tmp;
+            if (IndexMin != i) {
+                int temp = array[IndexMin];
+                array[IndexMin] = array[i];
+                array[i] = temp;
             }
         }
         return array;
@@ -132,9 +133,13 @@ public class Sort {
 
         int[] array = {9, 5, 2, 4, 2, 1, 9, 8, 6};
 
-        //这是测试快排，如需测试其他排序的代码，记得注释掉以下测试代码
-        System.out.println(Arrays.toString(array));
-        System.out.println(Arrays.toString(quickSort(0, array.length - 1, array)));
+        //这是测试选择排序，如需测试其他排序的代码，记得注释掉以下测试代码
+        System.out.println(Arrays.toString(selectionSort(array)));
+
+
+//        //这是测试快排，如需测试其他排序的代码，记得注释掉以下测试代码
+//        System.out.println(Arrays.toString(array));
+//        System.out.println(Arrays.toString(quickSort(0, array.length - 1, array)));
 
     }
 }
