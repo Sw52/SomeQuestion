@@ -2,43 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7df3224-ba9f-4a5f-a280-0231161eb4c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/两数之和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/BinarySerach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interviewQuestion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/interviewQuestion.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q6_PrintListInReversedOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q6_PrintListInReversedOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q7_ConstructBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q7_ConstructBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/META-INF/interviewQuestion.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/META-INF/interviewQuestion.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q10_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q10_Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q11_MinNumberInRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q11_MinNumberInRotatedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q12_StringPathInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q12_StringPathInMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q13_RobotMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q13_RobotMove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q14_CuttingRope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q14_CuttingRope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q15_NumberOf1InBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q15_NumberOf1InBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q16_Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q16_Power.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q17_Print1ToMaxOfNDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q17_Print1ToMaxOfNDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q18_01_DeleteNodeInList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q18_01_DeleteNodeInList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q20_NumericStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q21_ReorderArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q21_ReorderArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q3_2_FindDuplicationNoEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q3_2_FindDuplicationNoEdit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q3_DuplicationInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q3_DuplicationInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q4_FindInPartiallySortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q4_FindInPartiallySortedMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q5_ReplaceSpaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q5_ReplaceSpaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q6_PrintListInReversedOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q6_PrintListInReversedOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q7_ConstructBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q7_ConstructBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q9_QueueWithTwoStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q9_QueueWithTwoStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/数列求和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/数列求和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,13 +61,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sort">
+  <component name="RunManager" selected="Application.BinarySerach">
     <configuration name="两数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.两数之和" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySerach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.BinarySerach" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,7 +106,7 @@
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodingInterview.*" />
+          <option name="PATTERN" value="sw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,24 +115,11 @@
       </method>
     </configuration>
     <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingInterview.Sort" />
+      <option name="MAIN_CLASS_NAME" value="sw.Sort" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodingInterview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingInterview.Test" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodingInterview.*" />
+          <option name="PATTERN" value="sw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySerach" />
         <item itemvalue="Application.Sort" />
         <item itemvalue="Application.两数之和" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +169,10 @@
       <workItem from="1564820837957" duration="9766000" />
       <workItem from="1564902922328" duration="603000" />
       <workItem from="1565259580215" duration="16000" />
-      <workItem from="1565277322562" duration="3736000" />
+      <workItem from="1565277322562" duration="5402000" />
+      <workItem from="1565314827766" duration="1225000" />
+      <workItem from="1565333572255" duration="25000" />
+      <workItem from="1565419476095" duration="2574000" />
     </task>
     <servers />
   </component>
@@ -288,14 +260,48 @@
           <line>168</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="array[8]" />
-        <watch expression="array" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/interviewQuestion$Sort.ic" NAME="Sort Coverage Results" MODIFIED="1564408806374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

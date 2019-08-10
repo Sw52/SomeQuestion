@@ -1,4 +1,4 @@
-package CodingInterview;
+package sw;
 
 import com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
 
