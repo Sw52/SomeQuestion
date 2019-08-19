@@ -3,6 +3,7 @@ package sw;
 
 import java.sql.DataTruncation;
 import java.util.Arrays;
+import java.util.HashMap;
 
 /*
 一些经典的排序算法
@@ -89,23 +90,25 @@ public class Sort {
      * @param array
      * @see 快速排序
      * 时间复杂度：  平均时间复杂度：O(n2) 最好情况：O(n2) 最坏情况：O(n2)
+     * 时间复杂度的分析：调用栈的高度平均为O(logn)，每层需要的时间为O(n)，故整体时间为O(n)*O(logn) = O(nlogn)
      * 空间复杂度：  O(1)
      * 稳定性：    不稳定
      * 排序方式：   In-Place
+     * 思想：分治法（D&C：Divide and Conquer）
      */
     public static int[] quickSort(int indexLeft, int indexRight, int[] array) {
         if (array == null)  //判断输入合法性
             return null;
-        if (indexLeft >= indexRight)    //递归边界
+        if (indexLeft >= indexRight)    //递归边界（基线条件）
             return null;
         int left = indexLeft;   //设置左指针
-        int right = indexRight; //设置优指针
+        int right = indexRight-1; //设置右指针(最右端为哨兵，哨兵的左边一个为右指针起始处)
         int key = array[indexRight];    //设置哨兵（采用排序子序列的最右边一个元素为哨兵）
 
         while (left < right) {  //循环判断
-            while (array[left] <= key && left < right)  //在前半部分中查找比哨兵大的数并定位
+            while (array[left] < key && left < right)  //在前半部分中查找比哨兵大的数并定位
                 left++;
-            while (array[right] >= key && left < right) //在后半部分中查找比哨兵小的数并定位
+            while (array[right] > key && left < right) //在后半部分中查找比哨兵小的数并定位
                 right--;
             if (left < right) { //将刚刚定位到的左边部分比哨兵大的那个数和右半部分比哨兵小的那个数进行交换
                 int temp = array[left];
@@ -125,6 +128,7 @@ public class Sort {
 
 
     /**
+     *
      * 测试函数
      *
      * @param args
@@ -133,13 +137,13 @@ public class Sort {
 
         int[] array = {9, 5, 2, 4, 2, 1, 9, 8, 6};
 
-        //这是测试选择排序，如需测试其他排序的代码，记得注释掉以下测试代码
-        System.out.println(Arrays.toString(selectionSort(array)));
-
-
-//        //这是测试快排，如需测试其他排序的代码，记得注释掉以下测试代码
+//        //这是测试选择排序，如需测试其他排序的代码，记得注释掉以下测试代码
 //        System.out.println(Arrays.toString(array));
-//        System.out.println(Arrays.toString(quickSort(0, array.length - 1, array)));
+//        System.out.println(Arrays.toString(selectionSort(array)));
 
+
+        //这是测试快排，如需测试其他排序的代码，记得注释掉以下测试代码
+        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(quickSort(0, array.length - 1, array)));
     }
 }
