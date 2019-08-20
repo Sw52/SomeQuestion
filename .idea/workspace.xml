@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7df3224-ba9f-4a5f-a280-0231161eb4c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sw/practice/字符串最后一个单词的长度.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/practice/数组实现循环队列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/practice/明明的随机数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/practice/计算字符个数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/字符串分隔.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/进制转换.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/最大上升子序列和.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/最大上升子序列和.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/最长上升子序列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/最长上升子序列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/practice/最大上升子序列和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/practice/最大上升子序列和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/practice/最长上升子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/practice/最长上升子序列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/明明的随机数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/明明的随机数.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/practice/明明的随机数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/practice/明明的随机数.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.明明的随机数">
+  <component name="RunManager" selected="Application.进制转换">
     <configuration name="计算字符个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sw.practice.计算字符个数" />
       <module name="interviewQuestion" />
@@ -99,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="数组实现循环队列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.practice.数组实现循环队列" />
+    <configuration name="字符串分隔" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.字符串分隔" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="字符串最后一个单词的长度" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.practice.字符串最后一个单词的长度" />
+    <configuration name="进制转换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.进制转换" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.进制转换" />
+        <item itemvalue="Application.字符串分隔" />
         <item itemvalue="Application.明明的随机数" />
         <item itemvalue="Application.计算字符个数" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.字符串最后一个单词的长度" />
-        <item itemvalue="Application.数组实现循环队列" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +185,7 @@
       <workItem from="1565854863378" duration="5206000" />
       <workItem from="1565937779746" duration="7004000" />
       <workItem from="1566042460561" duration="8302000" />
-      <workItem from="1566201598624" duration="20379000" />
+      <workItem from="1566201598624" duration="24691000" />
     </task>
     <servers />
   </component>
