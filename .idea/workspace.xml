@@ -2,36 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7df3224-ba9f-4a5f-a280-0231161eb4c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Kdxf/Problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kdxf/Problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kdxf/Problem3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test360/Problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test360/Problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tx/Problem1/压缩算法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tx/Problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tx/Problem3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tx/Problem4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tx/Problem5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tx/Test/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tx/Test/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tx/Test/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tx/Test/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tx/Test/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tx/test.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beike/Probelm_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beike/Problem_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beike/Problem_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/byteDance/Problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/byteDance/Problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/byteDance/Problem3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/byteDance/Problem4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/practice/最大上升子序列和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/practice/最长上升子序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/字符串最后一个单词的长度.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/数组实现循环队列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/明明的随机数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/计算字符个数.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/最大上升子序列和.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/最大上升子序列和.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/最长上升子序列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/最长上升子序列.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/practice/最大上升子序列和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/practice/最大上升子序列和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/practice/最长上升子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/practice/最长上升子序列.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,9 +72,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.最长上升子序列">
-    <configuration name="最长上升子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.practice.最长上升子序列" />
+  <component name="RunManager" selected="Application.明明的随机数">
+    <configuration name="计算字符个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.计算字符个数" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tx.Problem4.Main" />
+    <configuration name="明明的随机数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.明明的随机数" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tx.Problem4.*" />
+          <option name="PATTERN" value="sw.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tx.Problem5.Main" />
+    <configuration name="数组实现循环队列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.数组实现循环队列" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tx.Problem5.*" />
+          <option name="PATTERN" value="sw.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tx.Problem2.Main" />
+    <configuration name="字符串最后一个单词的长度" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.字符串最后一个单词的长度" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tx.Problem2.*" />
+          <option name="PATTERN" value="sw.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tx.Problem3.Main" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.Test" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tx.Problem3.*" />
+          <option name="PATTERN" value="sw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.最长上升子序列" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.明明的随机数" />
+        <item itemvalue="Application.计算字符个数" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.字符串最后一个单词的长度" />
+        <item itemvalue="Application.数组实现循环队列" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +192,7 @@
       <workItem from="1565854863378" duration="5206000" />
       <workItem from="1565937779746" duration="7004000" />
       <workItem from="1566042460561" duration="8302000" />
-      <workItem from="1566201598624" duration="5851000" />
+      <workItem from="1566201598624" duration="20379000" />
     </task>
     <servers />
   </component>
@@ -732,6 +714,91 @@
           <url>file://$PROJECT_DIR$/src/Tx/Problem4/Main.java</url>
           <line>57</line>
           <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/数组实现循环队列.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="277" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
