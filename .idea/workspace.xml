@@ -2,56 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7df3224-ba9f-4a5f-a280-0231161eb4c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Bilibilli/Problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Bilibilli/Problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Bilibilli/Problem3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Bilibilli/Problem4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/practice/句子逆序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/practice/字符串翻转.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sw/practice/统计大写字母的个数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/HW/Problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/HW/Problem2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/HW/Problem3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Hkws/Problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Hkws/Problem2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Hkws/Problem3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Hkws/Problem4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/JD/Problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/JD/Problem2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/JD/Problem3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/JD/Problem4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Yitu/Problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Yitu/Problem2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Yitu/Problem3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/丑数判断.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/字符个数统计.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/字符串加解密.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/字符串去重.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/质数判断.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/集合交差并.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Test360/Problem1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Test360/Problem2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Tx/Problem1/压缩算法.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Tx/Problem2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Tx/Problem3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Tx/Problem4/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Tx/Problem5/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Tx/Test/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Tx/Test/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Tx/Test/Test3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Tx/Test/Test4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Tx/Test/Test5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Tx/test.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/beike/Probelm_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/beike/Problem_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/beike/Problem_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/byteDance/Problem1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/byteDance/Problem2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/byteDance/Problem3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/byteDance/Problem4/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/进制转换.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/进制转换.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test360/Problem1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Test360/Problem1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test360/Problem2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Test360/Problem2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tx/Problem1/压缩算法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Problem1/压缩算法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tx/Problem2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Problem2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tx/Problem3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Problem3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tx/Problem4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tx/Problem5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Problem5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tx/Test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Test/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tx/Test/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Test/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tx/Test/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Test/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tx/Test/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Test/Test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tx/Test/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Test/Test5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tx/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/test.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beike/Probelm_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/beike/Probelm_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beike/Problem_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/beike/Problem_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beike/Problem_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/beike/Problem_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/byteDance/Problem1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/byteDance/Problem1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/byteDance/Problem2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/byteDance/Problem2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/byteDance/Problem3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/byteDance/Problem3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/byteDance/Problem4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/byteDance/Problem4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q3_2_FindDuplicationNoEdit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q3_2_FindDuplicationNoEdit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Bilibilli/Problem4/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Kdxf/Problem1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/Kdxf/Problem1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Kdxf/Problem2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/Kdxf/Problem2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Kdxf/Problem3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/Kdxf/Problem3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/明明的随机数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/明明的随机数.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/统计大写字母的个数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/统计大写字母的个数.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q3_2_FindDuplicationNoEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q3_2_FindDuplicationNoEdit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterVIew/Bilibilli/Problem4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Yitu/Problem4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kdxf/Problem1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kdxf/Problem1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kdxf/Problem2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kdxf/Problem2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kdxf/Problem3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kdxf/Problem3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/practice/明明的随机数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/practice/明明的随机数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/practice/统计大写字母的个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/practice/统计大写字母的个数.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +61,9 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="interviewQuestion" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,7 +81,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Tx" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/programFile/javaEclipse/mysqlTest" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,7 +94,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Kdxf.Problem3" />
+      <recent name="Kdxf.Problem2" />
+      <recent name="Kdxf.Problem1" />
+      <recent name="InterVIew.Yuanfudao.Problem4" />
+      <recent name="InterVIew.Yuanfudao.Problem3" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/InterVIew/JD" />
+      <recent name="$PROJECT_DIR$/src/InterVIew/Yuanfudao" />
+      <recent name="$PROJECT_DIR$/src/InterVIew/Hkws" />
+      <recent name="$PROJECT_DIR$/src/InterVIew/Yitu" />
       <recent name="$PROJECT_DIR$/src/Tx/" />
     </key>
   </component>
@@ -110,9 +121,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.统计大写字母的个数">
-    <configuration name="字符串翻转" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.practice.字符串翻转" />
+  <component name="RunManager" selected="Application.明明的随机数">
+    <configuration name="质数判断" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.质数判断" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="句子逆序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.practice.句子逆序" />
+    <configuration name="丑数判断" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.丑数判断" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="统计大写字母的个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.practice.统计大写字母的个数" />
+    <configuration name="集合交叉并" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.集合交叉并" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
@@ -150,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterVIew.Bilibilli.Problem3.Knapsack" />
+    <configuration name="明明的随机数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.明明的随机数" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterVIew.Bilibilli.Problem3.*" />
+          <option name="PATTERN" value="sw.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterVIew.Bilibilli.Problem3.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingInterview.Main" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterVIew.Bilibilli.Problem3.*" />
+          <option name="PATTERN" value="CodingInterview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.统计大写字母的个数" />
-        <item itemvalue="Application.句子逆序" />
-        <item itemvalue="Application.字符串翻转" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Knapsack" />
+        <item itemvalue="Application.明明的随机数" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.集合交叉并" />
+        <item itemvalue="Application.质数判断" />
+        <item itemvalue="Application.丑数判断" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +241,12 @@
       <workItem from="1565854863378" duration="5206000" />
       <workItem from="1565937779746" duration="7004000" />
       <workItem from="1566042460561" duration="8302000" />
-      <workItem from="1566201598624" duration="34057000" />
+      <workItem from="1566201598624" duration="50013000" />
+      <workItem from="1566437856969" duration="934000" />
+      <workItem from="1566521557349" duration="9445000" />
+      <workItem from="1566610356492" duration="17495000" />
+      <workItem from="1566693804297" duration="9503000" />
+      <workItem from="1566825753754" duration="6398000" />
     </task>
     <servers />
   </component>
@@ -834,19 +850,44 @@
           <option name="timeStamp" value="259" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sw/practice/数组实现循环队列.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java</url>
           <line>20</line>
-          <option name="timeStamp" value="277" />
+          <option name="timeStamp" value="309" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Bilibilli/Problem2/Main.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="298" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Bilibilli/Problem2/Main.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="299" />
+          <url>file://$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="310" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

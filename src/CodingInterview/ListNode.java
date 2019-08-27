@@ -12,13 +12,12 @@ class ListNode {
         this.val = val;
     }
 
-    public static void printList(ListNode pHead){
-        if(pHead==null)
+    public static void printList(ListNode pHead) {
+        if (pHead == null)
             return;
         else {
             System.out.println(pHead.val);
-            while (pHead.next!=null){
-
+            while (pHead.next != null) {
                 pHead = pHead.next;
                 System.out.println(pHead.val);
             }

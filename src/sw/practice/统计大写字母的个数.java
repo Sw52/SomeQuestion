@@ -24,18 +24,21 @@ add123#$%#%#O
 输出
 1
  */
+
 import java.util.Scanner;
 
 public class 统计大写字母的个数 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
-        int count = 0;
-        for(int i = 0 ;i<str.length();i++){
-            if(str.charAt(i)<='Z'&&str.charAt(i)>='A'){
-                count++;
+        while (sc.hasNext()) {
+            String str = sc.nextLine();
+            int count = 0;
+            for (int i = 0; i < str.length(); i++) {
+                if (str.charAt(i) <= 'Z' && str.charAt(i) >= 'A') {
+                    count++;
+                }
             }
+            System.out.println(count);
         }
-        System.out.println(count);
     }
 }

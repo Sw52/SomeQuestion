@@ -2,6 +2,7 @@ package sw;
 
 import org.omg.PortableInterceptor.INACTIVE;
 
+import java.sql.Connection;
 import java.util.*;
 
  class Test {
@@ -18,9 +19,21 @@ import java.util.*;
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String c = scanner.nextLine();
-        System.out.println(c);
+        TreeSet<Integer> set = new TreeSet<>();
+        set.add(2); set.add(1);
+       set.add(1);
+       set.add(0);
+
+        set.add(1);
+        set.add(0);
+        set.add(2);       set.add(1);
+        set.add(0);
+        set.add(2);
+
+        for (int i :set
+             ) {
+            System.out.println(i);
+        }
     }
 }
 

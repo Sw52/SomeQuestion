@@ -1,9 +1,6 @@
 package sw;
 
-
-import java.sql.DataTruncation;
 import java.util.Arrays;
-import java.util.HashMap;
 
 /*
 一些经典的排序算法
@@ -32,6 +29,7 @@ import java.util.HashMap;
  */
 public class Sort {
 
+/****************************************************************************************************************/
 
     /**
      * @param array
@@ -55,6 +53,7 @@ public class Sort {
         }
         return array;
     }
+/****************************************************************************************************************/
 
     /**
      * @param array
@@ -84,6 +83,88 @@ public class Sort {
         return array;
     }
 
+/****************************************************************************************************************/
+    /**
+     * @param array
+     * @return
+     * @see 插入排序
+     * 时间复杂度：  平均时间复杂度：O(n2) 最好情况：O(n) 最坏情况：O(n2)
+     * 空间复杂度：  O(1)
+     * 稳定性：    稳定
+     * 排序方式：   In-Place
+     */
+    public static int[] insertSort(int[] array) {
+        int[] arrayCopy = Arrays.copyOf(array, array.length);
+        for (int i = 1; i < array.length; i++) {
+            for (int j = i - 1; j >= 0; j--) {
+                if (array[j] > array[i]) {
+                    arrayCopy[j + 1] = arrayCopy[j];
+                    if (j == 0)
+                        arrayCopy[j] = array[i];
+                } else if (array[j] <= array[i]) {
+                    arrayCopy[j + 1] = array[i];
+                    break;
+                }
+            }
+            array = Arrays.copyOf(arrayCopy, arrayCopy.length); //注意这里不能直接等于，直接等于会把两个数组指向同一块内存
+        }
+        return arrayCopy;
+    }
+/****************************************************************************************************************/
+    /**
+     * @param array
+     * @return
+     * @see 堆排序
+     * 时间复杂度：  平均时间复杂度：O(nlogn) 最好情况：O(nlogn) 最坏情况：O(nlogn)
+     * 空间复杂度：  O(1)
+     * 稳定性：    不稳定
+     * 排序方式：   In-Place
+     */
+    public static int[] heapSort(int[] array) {
+        int[] arr = Arrays.copyOf(array, array.length);
+        int len = arr.length;
+        buildMaxHeap(arr, len);
+        for (int i = arr.length - 1; i > 0; i--) {
+            int temp = arr[0];
+            arr[0] = arr[i];
+            arr[i] = temp;
+            len--;
+            heapify(arr, 0, len);
+        }
+        return arr;
+
+    }
+
+    public static void buildMaxHeap(int[] arr, int len) {
+        //构造初始堆,从第一个非叶子节点开始调整,左右孩子节点中较大的交换到父节点中
+        for (int i = (int) Math.floor(len / 2); i >= 0; i--) {
+            //排序，将最大的节点放在堆尾，然后从根节点重新调整
+            heapify(arr, i, len);
+        }
+    }
+
+    public static void heapify(int[] arr, int i, int len) {
+        int left = 2 * i + 1;
+        int right = 2 * i + 2;
+        int largest = i;
+
+        if (left < len && arr[left] > arr[largest]) {
+            largest = left;
+        }
+
+        if (right < len && arr[right] > arr[largest]) {
+            largest = right;
+        }
+        if (largest != i) {
+            int temp = arr[i];
+            arr[i] = arr[largest];
+            arr[largest] = temp;
+            heapify(arr, largest, len);
+        }
+    }
+
+/****************************************************************************************************************/
+
     /**
      * @param indexLeft
      * @param indexRight
@@ -102,13 +183,13 @@ public class Sort {
         if (indexLeft >= indexRight)    //递归边界（基线条件）
             return null;
         int left = indexLeft;   //设置左指针
-        int right = indexRight-1; //设置右指针(最右端为哨兵，哨兵的左边一个为右指针起始处)
+        int right = indexRight - 1; //设置右指针(最右端为哨兵，哨兵的左边一个为右指针起始处)
         int key = array[indexRight];    //设置哨兵（采用排序子序列的最右边一个元素为哨兵）
 
         while (left < right) {  //循环判断
-            while (array[left] < key && left < right)  //在前半部分中查找比哨兵大的数并定位
+            while (array[left] <= key && left < right)  //在前半部分中查找比哨兵大的数并定位
                 left++;
-            while (array[right] > key && left < right) //在后半部分中查找比哨兵小的数并定位
+            while (array[right] >= key && left < right) //在后半部分中查找比哨兵小的数并定位
                 right--;
             if (left < right) { //将刚刚定位到的左边部分比哨兵大的那个数和右半部分比哨兵小的那个数进行交换
                 int temp = array[left];
@@ -125,10 +206,9 @@ public class Sort {
         quickSort(left + 1, indexRight, array);
         return array;
     }
-
+/****************************************************************************************************************/
 
     /**
-     *
      * 测试函数
      *
      * @param args
@@ -136,14 +216,34 @@ public class Sort {
     public static void main(String[] args) {
 
         int[] array = {9, 5, 2, 4, 2, 1, 9, 8, 6};
+        int[] arr = {1, 5, 3, 7, 9, 4, 5, 3, 2, 1, 5, 3, 4, 5};
+
+//        //这是测试冒泡排序，如需测试其他排序的代码，记得注释掉以下测试代码
+//        System.out.println(Arrays.toString(array));
+//        System.out.println(Arrays.toString(bubbleSort(array)));
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(bubbleSort(arr)));
 
 //        //这是测试选择排序，如需测试其他排序的代码，记得注释掉以下测试代码
 //        System.out.println(Arrays.toString(array));
 //        System.out.println(Arrays.toString(selectionSort(array)));
 
+////        //这是测试插入排序，如需测试其他排序的代码，记得注释掉以下测试代码
+//        System.out.println(Arrays.toString(array));
+//        System.out.println(Arrays.toString(insertSort(array)));
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(insertSort(arr)));
 
-        //这是测试快排，如需测试其他排序的代码，记得注释掉以下测试代码
+        //这是测试插入排序，如需测试其他排序的代码，记得注释掉以下测试代码
         System.out.println(Arrays.toString(array));
-        System.out.println(Arrays.toString(quickSort(0, array.length - 1, array)));
+        System.out.println(Arrays.toString(heapSort(array)));
+        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(heapSort(arr)));
+
+//        //这是测试快排，如需测试其他排序的代码，记得注释掉以下测试代码
+//        System.out.println(Arrays.toString(array));
+//        System.out.println(Arrays.toString(quickSort(0, array.length - 1, array)));
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(quickSort(0, arr.length - 1, arr)));
     }
 }
