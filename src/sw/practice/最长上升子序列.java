@@ -31,20 +31,20 @@ public class 最长上升子序列 {
      * 依次遍历数组，当前位置数字的最长上升子序列的长度为Max(1,他之前比他小的数字中有最长子序列长度)
      */
     public static int lengthOfLIS(int[] nums) {
-        int[] db = new int[nums.length];//创建辅助数组
-        Arrays.fill(db, 1);
-        //遍历查找当前数字的最长子序列长度
+        int[] db = new int[nums.length];
+        Arrays.fill(db,1);
+
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < i; j++) {
-                if (nums[j] < nums[i])
-                    db[i] = Math.max(db[i], db[j] + 1);
+                if (nums[j]<nums[i])
+                    db[i] = Math.max(db[i],db[j]+1);
             }
         }
-        //计算输出值，注意这里让result的初始值为0可以使输入为空时输出为0
         int result = 0;
         for (int i = 0; i < db.length; i++) {
-            result = Math.max(result, db[i]);
+            result = Math.max(result,db[i]);
         }
+
         return result;
     }
 

@@ -3,63 +3,65 @@ package CodingInterview;
 
 public class Q7_二叉树重构 {
 
+
     /**
-     * ---------------------------------------------------------------------------------------------------------------------
-     * <p>
-     * 二叉树重构代码有问题，！！！！！！！！
-     * <p>
-     * --------------------------------------------------------------------------------------------------------------------
-     *
-     * @param pre
-     * @param pre_start
-     * @param pre_end
-     * @param in
-     * @param in_start
-     * @param in_end
+     * @param preOrder
+     * @param inOrder
      * @return
+     * @see 由先序和中序重建二叉树
      */
-    public static TreeNode constructCore(int[] pre, int pre_start, int pre_end, int[] in, int in_start, int in_end) {
-        int rootValue = pre[0];
-        TreeNode root = new TreeNode(rootValue);
-        root.left = root.right = null;
-
-        if (pre_start == pre_end) {
-            if (in_start == in_end) {
-                return root;
-            } else
-                System.out.println("输入有误");
-        }
-        int root_Inorder = in_start;
-        while (root_Inorder <= in_end && in[root_Inorder] != rootValue) {
-            ++root_Inorder;
-        }
-        if (root_Inorder == in_end && in[root_Inorder] != rootValue) {
-            System.out.println("输入有误");
-        }
-
-        int leftLength = root_Inorder - in_start;
-        int leftPreorderEnd = pre_start + leftLength;
-        if (leftLength > 0) {
-            root.left = constructCore(pre, pre_start + 1, pre_start + leftLength, in, in_start, in_end + leftLength - 1);
-        }
-        if (leftLength < pre_end - pre_start) {
-            root.right = constructCore(pre, leftPreorderEnd + 1, pre_end, in, in_start + 1, in_end);
-        }
-        return root;
-
-    }
-
-    public static TreeNode reConstructBinaryTree(int[] pre, int[] in) {
-
-        if (pre == null || in == null)
+    public static TreeNode reConstructBinaryTree(int[] preOrder, int[] inOrder) {
+        if (preOrder == null || inOrder == null)
             return null;
-
-        return constructCore(pre, 0, 7, in, 0, 7);
+        return reConstructBinaryTreeCore(preOrder, 0, preOrder.length - 1, inOrder, 0, inOrder.length - 1);
     }
 
+    /**
+     * @param preOrder
+     * @param startPre
+     * @param endPre
+     * @param inOrder
+     * @param startIn
+     * @param endIn
+     * @return
+     * @see 由先序和中序重建二叉树
+     */
+    private static TreeNode reConstructBinaryTreeCore(int[] preOrder, int startPre, int endPre, int[] inOrder, int startIn, int endIn) {
+        if (startPre > endPre || startIn > endIn)
+            return null;
+        TreeNode root = new TreeNode(preOrder[startPre]); //先序的第一个元素就是根节点
+        for (int i = startIn; i <= endIn; i++)
+            if (inOrder[i] == preOrder[startPre]) {       //找到根节点在中序的位置
+                root.left = reConstructBinaryTreeCore(preOrder, startPre + 1, startPre + i - startIn, inOrder, startIn, i - 1); //递归确定左子树
+                root.right = reConstructBinaryTreeCore(preOrder, i - startIn + startPre + 1, endPre, inOrder, i + 1, endIn);    //递归确定右子树
+                break;
+            }
+        return root;
+    }
+
+
+    /**
+     * 测试函数
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         int[] pre = {1, 2, 3, 4, 5, 6, 7};
         int[] in = {3, 2, 4, 1, 6, 5, 7};
-        System.out.println(reConstructBinaryTree(pre, in));
+
+        TreeNode treeNode = reConstructBinaryTree(pre, in);
+        二叉树的打印 printBinary = new 二叉树的打印();
+        //先序
+        System.out.print("先序：　");
+        printBinary.printBinaryTreePreOrder(treeNode);
+        System.out.println();
+        //中序
+        System.out.print("中序：　");
+        printBinary.printBinaryTreeInOrder(treeNode);
+        System.out.println();
+        //后序
+        System.out.print("后序：　");
+        printBinary.printBinaryTreeByPostOrder(treeNode);
+        System.out.println();
     }
 }
