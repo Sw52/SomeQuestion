@@ -3,7 +3,7 @@ package sw.practice.生产者AND消费者;
 import java.util.List;
 import java.util.Random;
 
-public class 生产者 implements Runnable {
+public class 生产者 extends Thread {
 
     private List<Integer> list;
     private int maxLength;

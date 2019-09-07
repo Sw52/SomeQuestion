@@ -2,7 +2,7 @@ package sw.practice.生产者AND消费者;
 
 import java.util.List;
 
-public class 消费者 implements Runnable{
+public class 消费者 extends Thread{
     private List<Integer> list;
     public 消费者(List list){
         this.list = list;
