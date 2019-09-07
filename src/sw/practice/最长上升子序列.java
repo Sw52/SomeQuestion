@@ -44,7 +44,6 @@ public class 最长上升子序列 {
         for (int i = 0; i < db.length; i++) {
             result = Math.max(result,db[i]);
         }
-
         return result;
     }
 

@@ -7,16 +7,16 @@ import java.util.Arrays;
 +-----------------------------------------------------------------------------------+
 |排序算法	平均时间复杂度	最好情况		最坏情况	  空间复杂度	    排序方式		稳定性	|
 +-----------------------------------------------------------------------------------+
-|冒泡排序    O(n2)           O(n)        O(n2)     O(1)       	In-Place   	稳定		|
-|选择排序    O(n2)           O(n2)       O(n2)     O(1)       	In-Place   	不稳定	|
-|插入排序    O(n2)           O(n)        O(n2)     O(1)       	In-Place   	稳定		|
-|希尔排序    O(nlogn)        O(nlog2n)   O(nlog2n) O(1)       	In-Place   	不稳定	|
-|归并排序    O(nlogn)        O(nlogn)    O(nlogn)  O(n)       	Out-Place  	稳定		|
-|快速排序    O(nlogn)        O(nlogn)    O(n2)     O(logn)    	In-Place   	不稳定	|
-|堆排序      O(nlogn)        O(nlogn)    O(nlogn)  O(1)       	In-Place   	不稳定	|
-|计数排序    O(n+k)          O(n+k)      O(n+k)    O(k)       	Out-Place  	稳定		|
-|桶排序      O(n+k)          O(n+k)      O(n2)     O(n+k)     	Out-Place  	稳定		|
-|基数排序    O(nxk)          O(nxk)      O(nxk)    O(n+k)     	Out-Place  	稳定		|
+|冒泡排序    O(n2)           O(n)        O(n2)      O(1)       	In-Place   	稳定		|
+|选择排序    O(n2)           O(n2)       O(n2)      O(1)       	In-Place   	不稳定	|
+|插入排序    O(n2)           O(n)        O(n2)      O(1)       	In-Place   	稳定		|
+|希尔排序    O(nlogn)        O(n)        O(nlog^2n) O(1)       	In-Place   	不稳定	|
+|归并排序    O(nlogn)        O(nlogn)    O(nlogn)   O(n)       	Out-Place  	稳定		|
+|快速排序    O(nlogn)        O(nlogn)    O(n2)      O(logn)    	In-Place   	不稳定	|
+|堆排序      O(nlogn)        O(nlogn)    O(nlogn)   O(1)       	In-Place   	不稳定	|
+|计数排序    O(n+k)          O(n+k)      O(n+k)     O(k)       	Out-Place  	稳定		|
+|桶排序      O(n+k)          O(n+k)      O(n2)      O(n+k)     	Out-Place  	稳定		|
+|基数排序    O(nxk)          O(nxk)      O(nxk)     O(n+k)     	Out-Place  	稳定		|
 +-----------------------------------------------------------------------------------+
 
 注：排序的稳定性
@@ -94,21 +94,18 @@ public class Sort {
      * 排序方式：   In-Place
      */
     public static int[] insertSort(int[] array) {
-        int[] arrayCopy = Arrays.copyOf(array, array.length);
+        if (array == null || array.length <= 0)
+            return null;
         for (int i = 1; i < array.length; i++) {
-            for (int j = i - 1; j >= 0; j--) {
-                if (array[j] > array[i]) {
-                    arrayCopy[j + 1] = arrayCopy[j];
-                    if (j == 0)
-                        arrayCopy[j] = array[i];
-                } else if (array[j] <= array[i]) {
-                    arrayCopy[j + 1] = array[i];
-                    break;
-                }
+            int key = array[i];
+            int j = i - 1;
+            while (j >= 0 && array[j] > key) { //把array[i]之前大于array[i]的元素依次向后移动移位
+                array[j + 1] = array[j];
+                j--;
             }
-            array = Arrays.copyOf(arrayCopy, arrayCopy.length); //注意这里不能直接等于，直接等于会把两个数组指向同一块内存
+            array[j + 1] = key;
         }
-        return arrayCopy;
+        return array;
     }
 /****************************************************************************************************************/
     /**
@@ -132,34 +129,40 @@ public class Sort {
             heapify(arr, 0, len);
         }
         return arr;
-
     }
 
-    public static void buildMaxHeap(int[] arr, int len) {
-        //构造初始堆,从第一个非叶子节点开始调整,左右孩子节点中较大的交换到父节点中
+    /**
+     * 构建一颗da顶堆
+     *
+     * @param array
+     */
+    public static void buildMaxHeap(int[] array, int len) {
+        //从最后一个非叶子节点开始调整，第一个非叶子节点为array[Math.floor(len / 2)]
         for (int i = (int) Math.floor(len / 2); i >= 0; i--) {
-            //排序，将最大的节点放在堆尾，然后从根节点重新调整
-            heapify(arr, i, len);
+            heapify(array, i, len); //维护大顶堆
         }
     }
 
-    public static void heapify(int[] arr, int i, int len) {
-        int left = 2 * i + 1;
-        int right = 2 * i + 2;
+    /**
+     * @param array
+     * @param i
+     * @see 维护大顶堆
+     */
+    public static void heapify(int[] array, int i, int len) {
+        int left = i * 2 + 1;   //左儿子节点
+        int right = i * 2 + 2;  //右儿子节点
         int largest = i;
-
-        if (left < len && arr[left] > arr[largest]) {
+        if (left < len && array[left] > array[largest]) {   //如果左儿子节点大于父节点
             largest = left;
         }
-
-        if (right < len && arr[right] > arr[largest]) {
+        if (right < len && array[right] > array[largest]) { //如果右儿子节点大于父节点
             largest = right;
         }
-        if (largest != i) {
-            int temp = arr[i];
-            arr[i] = arr[largest];
-            arr[largest] = temp;
-            heapify(arr, largest, len);
+        if (largest != i) {     //如果儿子节点大于父节点，则把其中较大的儿子与父节点进行交换
+            int temp = array[i];
+            array[i] = array[largest];
+            array[largest] = temp;
+            heapify(array, largest, len);
         }
     }
 
@@ -206,7 +209,96 @@ public class Sort {
         quickSort(left + 1, indexRight, array);
         return array;
     }
+
 /****************************************************************************************************************/
+
+    /**
+     * @param array
+     * @return
+     * @see 希尔排序
+     * 时间复杂度：  平均时间复杂度：O(nlog(n)) 最好情况：O(n) 最坏情况：O(nlog^2(n))
+     * 时间复杂度的分析：时间复杂度的影响因素主要为增量的设置
+     * 空间复杂度：  O(1)
+     * 稳定性：    不稳定
+     * 排序方式：   In-Place
+     * 思想：优化插入法
+     */
+    public static int[] shellSort(int[] array) {
+        int gap = array.length;
+        while (true) {
+            gap /= 2;   //增量每次减半
+            for (int i = 0; i < gap; i++) {
+                for (int j = i + gap; j < array.length; j += gap) {//这个循环里其实就是一个插入排序
+                    int temp = array[j];
+                    int k = j - gap;
+                    while (k >= 0 && array[k] > temp) {
+                        array[k + gap] = array[k];
+                        k -= gap;
+                    }
+                    array[k + gap] = temp;
+                }
+            }
+            if (gap == 1)   //边界条件：增量为1的时候
+                break;
+        }
+        return array;
+    }
+
+/****************************************************************************************************************/
+
+    /**
+     * @param array
+     * @return
+     * @see 归并排序
+     * 时间复杂度：  平均时间复杂度：O(nlog(n)) 最好情况：O(nlog(n)) 最坏情况：O(nlog(n))
+     * 时间复杂度的分析：
+     * 空间复杂度：   O(n)
+     * 稳定性：      稳定
+     * 排序方式：    Out-Place
+     * 思想：       分治法
+     */
+    public static int[] mergeSort(int[] array) {
+        if (array == null || array.length <= 0)
+            return null;
+        if (array.length < 2)
+            return array;
+        int middle = (int) Math.floor(array.length / 2);
+        int[] left = Arrays.copyOfRange(array, 0, middle);
+        int[] right = Arrays.copyOfRange(array, middle, array.length);
+        return merge(mergeSort(left), mergeSort(right));
+    }
+
+    /**
+     * @ 合并两个有序序列
+     * @param left
+     * @param right
+     * @return
+     */
+    public static int[] merge(int[] left, int[] right) {
+        int[] result = new int[left.length + right.length];
+        int i = 0;
+        while (left.length > 0 && right.length > 0) {
+            if (left[0] <= right[0]) {
+                result[i++] = left[0];
+                left = Arrays.copyOfRange(left, 1, left.length);
+            } else {
+                result[i++] = right[0];
+                right = Arrays.copyOfRange(right, 1, right.length);
+            }
+        }
+        while (left.length > 0) {
+            result[i++] = left[0];
+            left = Arrays.copyOfRange(left, 1, left.length);
+        }
+        while (right.length > 0) {
+            result[i++] = right[0];
+            right = Arrays.copyOfRange(right, 1, right.length);
+        }
+        return result;
+    }
+
+/****************************************************************************************************************/
+
 
     /**
      * 测试函数
@@ -228,24 +320,36 @@ public class Sort {
 //        System.out.println(Arrays.toString(array));
 //        System.out.println(Arrays.toString(selectionSort(array)));
 
-////        //这是测试插入排序，如需测试其他排序的代码，记得注释掉以下测试代码
+//        //这是测试插入排序，如需测试其他排序的代码，记得注释掉以下测试代码
 //        System.out.println(Arrays.toString(array));
 //        System.out.println(Arrays.toString(insertSort(array)));
 //        System.out.println(Arrays.toString(arr));
 //        System.out.println(Arrays.toString(insertSort(arr)));
 
-//        //这是测试插入排序，如需测试其他排序的代码，记得注释掉以下测试代码
+//        //这是测试堆排序，如需测试其他排序的代码，记得注释掉以下测试代码
 //        System.out.println(Arrays.toString(array));
 //        System.out.println(Arrays.toString(heapSort(array)));
 //        System.out.println(Arrays.toString(arr));
 //        System.out.println(Arrays.toString(heapSort(arr)));
 
 //        //这是测试快排，如需测试其他排序的代码，记得注释掉以下测试代码
+//        System.out.println(Arrays.toString(array));
+//        System.out.println(Arrays.toString(quickSort(0, array.length - 1, array)));
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(quickSort(0, arr.length - 1, arr)));
+//        int[] array2 = {0, 1, 1, 1, 2, 3, 5, 5, 5, 12, 33, 112};
+//        System.out.println(Arrays.toString(quickSort(0,array2.length-1,array2)));
+
+//        //这是测试希尔排序，如需测试其他排序的代码，记得注释掉以下测试代码
+//        System.out.println(Arrays.toString(array));
+//        System.out.println(Arrays.toString(shellSort(array)));
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(shellSort(arr)));
+
+        //这是测试归并排序，如需测试其他排序的代码，记得注释掉以下测试代码
         System.out.println(Arrays.toString(array));
-        System.out.println(Arrays.toString(quickSort(0, array.length - 1, array)));
+        System.out.println(Arrays.toString(mergeSort(array)));
         System.out.println(Arrays.toString(arr));
-        System.out.println(Arrays.toString(quickSort(0, arr.length - 1, arr)));
-        int[] array2 = {0, 1, 1, 1, 2, 3, 5, 5, 5, 12, 33, 112};
-        System.out.println(Arrays.toString(quickSort(0,array2.length-1,array2)));
+        System.out.println(Arrays.toString(mergeSort(arr)));
     }
 }

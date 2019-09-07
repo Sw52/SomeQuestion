@@ -10,8 +10,5 @@ public class test {
         消费者 x = new 消费者(list);
         s.start();
         x.start();
-
-
-
     }
 }
