@@ -47,6 +47,6 @@ public class Q13_机器人运动 {
     public static void main(String[] args) {
         Q13_机器人运动 q13_robotMove = new Q13_机器人运动();
 
-        System.out.println(q13_robotMove.movingCount(5,10,10));
+        System.out.println(q13_robotMove.movingCount(5, 10, 10));
     }
 }

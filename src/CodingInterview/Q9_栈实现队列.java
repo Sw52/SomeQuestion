@@ -25,14 +25,15 @@ public class Q9_栈实现队列 {
     Stack<Integer> stack1 = new Stack<Integer>();
     Stack<Integer> stack2 = new Stack<Integer>();
 
-    public void push(int node){
+    public void push(int node) {
         stack1.push(node);
     }
-    public int pop(){
-        if(stack1.isEmpty()&&stack2.isEmpty())
+
+    public int pop() {
+        if (stack1.isEmpty() && stack2.isEmpty())
             throw new RuntimeException("Queue is empty");
-        if(stack2.isEmpty()){
-            while(!stack1.isEmpty()){
+        if (stack2.isEmpty()) {
+            while (!stack1.isEmpty()) {
                 stack2.push(stack1.pop());
             }
         }
@@ -41,7 +42,7 @@ public class Q9_栈实现队列 {
 
 
     public static void main(String[] args) {
-        Q9_栈实现队列 q9_queueWithTwoStacks =new Q9_栈实现队列();
+        Q9_栈实现队列 q9_queueWithTwoStacks = new Q9_栈实现队列();
         q9_queueWithTwoStacks.push(1);
         q9_queueWithTwoStacks.push(2);
         q9_queueWithTwoStacks.push(3);

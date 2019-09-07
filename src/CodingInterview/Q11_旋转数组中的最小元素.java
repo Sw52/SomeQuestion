@@ -11,25 +11,9 @@ public class Q11_旋转数组中的最小元素 {
     public static int findInorder(int[] array) {
         int result = array[0];
         for (int i = 0; i < array.length; ++i) {
-            if (result > array[i])
-                result = array[i];
+            result = Math.min(array[i], result);
         }
         return result;
-    }
-
-    public static void main(String[] args) {
-        int[] array1 = {3, 4, 5, 1, 2};
-        int[] array2 = {1, 2, 3, 4, 5};
-        int[] array3 = {1, 0, 1, 1, 1};
-        int[] array4 = {1, 1, 1, 0, 1};
-
-        Q11_旋转数组中的最小元素 q11_minNumberInRotatedArray = new Q11_旋转数组中的最小元素();
-
-        System.out.println(q11_minNumberInRotatedArray.minNumberInRotateArray(array1));
-        System.out.println(q11_minNumberInRotatedArray.minNumberInRotateArray(array2));
-        System.out.println(q11_minNumberInRotatedArray.minNumberInRotateArray(array3));
-        System.out.println(q11_minNumberInRotatedArray.minNumberInRotateArray(array4));
-
     }
 
     /**
@@ -48,27 +32,48 @@ public class Q11_旋转数组中的最小元素 {
 
     public int minNumberInRotateArray(int[] array) {
 
-        if (array == null)
-            return 0;
-
-        int index1 = 0;
-        int index2 = array.length - 1;
-        int indexMid = index1;
-        while (array[index1] >= array[index2]) {
-            if (index2 - index1 == 1) { //找到边界
-                indexMid = index2;
+        if (array == null)  //输入非法
+            return -1;
+        int indexLeft = 0;                 //左边界
+        int indexRight = array.length - 1;  //右边界
+        int indexMid = indexLeft;
+        while (array[indexLeft] >= array[indexRight]) {    //判断该序列是否真的满足旋转序列（如果真的旋转，则队首元素一定大于队尾元素）
+            if (indexRight - indexLeft == 1) { //找到边界，即左指针指向序列最大值，而右指针指向序列最小值
+                indexMid = indexRight;
                 break;
             }
-            indexMid = (index1 + index2) / 2;
-            if (array[index1] == array[index2] && array[indexMid] == array[index2]) { //数组有重复数字
+            indexMid = (indexLeft + indexRight) / 2;
+            if (array[indexLeft] == array[indexRight] && array[indexMid] == array[indexRight]) { //数组有重复数字，二分方法已经不再适用，采用查找法
                 return findInorder(array);
             }
-            if (array[indexMid] >= array[index1]) {
-                index1 = indexMid;
-            } else if (array[indexMid] <= array[index2]) {
-                index2 = indexMid;
+            if (array[indexMid] >= array[indexLeft]) {          //中间值大于左边界值
+                indexLeft = indexMid;                           //更新左边界
+            } else if (array[indexMid] <= array[indexRight]) {  //中间值小于右边界
+                indexRight = indexMid;                          //更新右边界
             }
         }
         return array[indexMid];
     }
+
+    public static void main(String[] args) {
+        int[] array1 = {3, 4, 5, 1, 2};
+        int[] array2 = {1, 2, 3, 4, 5};
+        int[] array3 = {1, 0, 1, 1, 1};
+        int[] array4 = {1, 1, 1, 0, 1};
+
+        Q11_旋转数组中的最小元素 q11_minNumberInRotatedArray = new Q11_旋转数组中的最小元素();
+        //顺序查找
+        System.out.println(findInorder(array1));
+        System.out.println(findInorder(array2));
+        System.out.println(findInorder(array3));
+        System.out.println(findInorder(array4));
+        //二分查找
+        System.out.println(q11_minNumberInRotatedArray.minNumberInRotateArray(array1));
+        System.out.println(q11_minNumberInRotatedArray.minNumberInRotateArray(array2));
+        System.out.println(q11_minNumberInRotatedArray.minNumberInRotateArray(array3));
+        System.out.println(q11_minNumberInRotatedArray.minNumberInRotateArray(array4));
+
+    }
+
+
 }

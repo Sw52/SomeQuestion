@@ -6,8 +6,6 @@ import java.util.ArrayList;
 public class Q6_逆序打印链表 {
 
 
-
-
     /**
      * @param listNode
      * @return

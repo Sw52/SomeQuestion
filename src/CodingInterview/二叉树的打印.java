@@ -1,5 +1,7 @@
 package CodingInterview;
 
+import java.util.LinkedList;
+
 public class 二叉树的打印 {
 
     /**
@@ -8,6 +10,8 @@ public class 二叉树的打印 {
      * @see 二叉树的先序打印
      */
     public void printBinaryTreePreOrder(TreeNode treeNode) {
+        if (treeNode==null)
+            return;
         System.out.print(" " + treeNode.val + " ");   //先打印当前节点值
         if (treeNode.left != null)
             printBinaryTreePreOrder(treeNode.left);     //递归打印左子树
@@ -21,6 +25,8 @@ public class 二叉树的打印 {
      * @see 二叉树的中序打印
      */
     public void printBinaryTreeInOrder(TreeNode treeNode) {
+        if (treeNode==null)
+            return;
         if (treeNode.left == null && treeNode.right == null) {  //到达叶子节点
             System.out.print(" " + treeNode.val + " ");
             return;
@@ -38,6 +44,8 @@ public class 二叉树的打印 {
      * @see 二叉树的后序打印
      */
     public void printBinaryTreeByPostOrder(TreeNode treeNode) {
+        if (treeNode==null)
+            return;
         if (treeNode.left == null && treeNode.right == null) {  //到达叶子节点
             System.out.print(" " + treeNode.val + " ");
             return;
@@ -47,6 +55,33 @@ public class 二叉树的打印 {
         if (treeNode.right != null)
             printBinaryTreeByPostOrder(treeNode.right); //递归打印右子树
         System.out.print(" " + treeNode.val + " ");   //打印当前节点值
+    }
+
+    /**
+     * @param treeNode
+     * @author SwYoung
+     * @see 二叉树的层序打印
+     */
+    public void printBinaryTreeByLayer(TreeNode treeNode) {
+        if (treeNode==null)
+            return;
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        if (treeNode == null)
+            return;
+        LinkedList<TreeNode> list = new LinkedList<>();
+        list.offer(treeNode);
+        while (!list.isEmpty()) {
+            TreeNode top = list.poll();
+            linkedList.add(top.val);
+            if (top.left != null)
+                list.offer(top.left);
+            if (top.right != null)
+                list.offer(top.right);
+        }
+        for (int i : linkedList
+        ) {
+            System.out.print(" " + i + " ");
+        }
     }
 
     public static void main(String[] args) {
@@ -66,7 +101,6 @@ public class 二叉树的打印 {
         treeNode.right.left = new TreeNode(6);
         treeNode.right.right = new TreeNode(7);
 
-
         二叉树的打印 printBinary = new 二叉树的打印();
         //先序
         printBinary.printBinaryTreePreOrder(treeNode);
@@ -77,9 +111,8 @@ public class 二叉树的打印 {
         //后序
         printBinary.printBinaryTreeByPostOrder(treeNode);
         System.out.println();
-
-
+        //层序
+        printBinary.printBinaryTreeByLayer(treeNode);
+        System.out.println();
     }
-
-
 }

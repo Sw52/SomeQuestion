@@ -7,6 +7,7 @@ public class Q14_剪绳子 {
      * 题目：一段长度为n的绳子，把绳子剪成m段（m、n都是整数且n>1、m>1），
      * 每段绳子的长度标记为k[0]、k[1]、k[2]...k[m]。请问k[0] x k[1] x k[2] x...x k[m]，
      * 可能的最大乘积
+     *
      * @param length
      * @return
      */

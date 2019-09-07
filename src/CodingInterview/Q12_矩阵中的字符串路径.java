@@ -14,7 +14,7 @@ public class Q12_矩阵中的字符串路径 {
 
     public boolean hasPath(char[] matrix, int rows, int cols, char[] str) {
 
-        if (matrix==null||str==null||rows<1||cols<1)  //合法性判断
+        if (matrix == null || str == null || rows < 1 || cols < 1)  //合法性判断
             return false;
         int[][] flag = new int[rows][cols];
         for (int i = 0; i < rows; i++) {

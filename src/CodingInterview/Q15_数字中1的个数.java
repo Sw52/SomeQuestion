@@ -1,6 +1,6 @@
 package CodingInterview;
 
-public class Q15_数字中1的个数{
+public class Q15_数字中1的个数 {
 
     /**
      * 输入一个整数，输出该数二进制表示中1的个数。其中负数用补码表示。
@@ -16,8 +16,7 @@ public class Q15_数字中1的个数{
                 ++count;
                 n = (n - 1) & n;
             }
-        }
-        else if(n<0){
+        } else if (n < 0) {
             //注意对负数的处理
             while (n < 0) {
                 ++count;
@@ -33,11 +32,11 @@ public class Q15_数字中1的个数{
 
 
         System.out.println(Integer.toBinaryString(-2147483648));
-        System.out.println(Integer.toBinaryString(-2147483648-1));
+        System.out.println(Integer.toBinaryString(-2147483648 - 1));
         System.out.println(numberOf1(-2147483648));
 
         System.out.println(Integer.toBinaryString(-2));
-        System.out.println(Integer.toBinaryString(-2-1));
+        System.out.println(Integer.toBinaryString(-2 - 1));
         System.out.println(numberOf1(-2));
 
 

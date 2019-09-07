@@ -8,19 +8,30 @@ class ListNode {
 
     CodingInterview.ListNode next = null; //该节点指向下一个节点的指针
 
+    /**
+     * @see 无参构造
+     */
+    ListNode() {
+
+    }
+
+    /**
+     * @param val
+     * @see 带参构造
+     */
     ListNode(int val) {     //带参构造函数
         this.val = val;
     }
 
-    public static void printList(ListNode pHead) {
-        if (pHead == null)
+    /**
+     * @param listNode
+     * @see 打印链表
+     */
+    public static void printListNode(ListNode listNode) {
+        if (listNode == null)
             return;
-        else {
-            System.out.println(pHead.val);
-            while (pHead.next != null) {
-                pHead = pHead.next;
-                System.out.println(pHead.val);
-            }
-        }
+        System.out.print(listNode.val);
+        printListNode(listNode.next);
     }
+
 }

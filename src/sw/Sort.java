@@ -186,10 +186,10 @@ public class Sort {
         int right = indexRight - 1; //设置右指针(最右端为哨兵，哨兵的左边一个为右指针起始处)
         int key = array[indexRight];    //设置哨兵（采用排序子序列的最右边一个元素为哨兵）
 
-        while (left < right) {  //循环判断
-            while (array[left] <= key && left < right)  //在前半部分中查找比哨兵大的数并定位
+        while (left <= right) {  //循环判断
+            while (array[left] <= key && left <= right)  //在前半部分中查找比哨兵大的数并定位
                 left++;
-            while (array[right] >= key && left < right) //在后半部分中查找比哨兵小的数并定位
+            while (array[right] >= key && left <= right) //在后半部分中查找比哨兵小的数并定位
                 right--;
             if (left < right) { //将刚刚定位到的左边部分比哨兵大的那个数和右半部分比哨兵小的那个数进行交换
                 int temp = array[left];
@@ -198,8 +198,8 @@ public class Sort {
             }
         }
         //将哨兵和指针相遇点的数据进行交换
-        array[indexRight] = array[right];
-        array[right] = key;
+        array[indexRight] = array[left];
+        array[left] = key;
 
         //递归查找个子部分
         quickSort(indexLeft, left - 1, array);
@@ -234,16 +234,18 @@ public class Sort {
 //        System.out.println(Arrays.toString(arr));
 //        System.out.println(Arrays.toString(insertSort(arr)));
 
-        //这是测试插入排序，如需测试其他排序的代码，记得注释掉以下测试代码
-        System.out.println(Arrays.toString(array));
-        System.out.println(Arrays.toString(heapSort(array)));
-        System.out.println(Arrays.toString(arr));
-        System.out.println(Arrays.toString(heapSort(arr)));
+//        //这是测试插入排序，如需测试其他排序的代码，记得注释掉以下测试代码
+//        System.out.println(Arrays.toString(array));
+//        System.out.println(Arrays.toString(heapSort(array)));
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(heapSort(arr)));
 
 //        //这是测试快排，如需测试其他排序的代码，记得注释掉以下测试代码
-//        System.out.println(Arrays.toString(array));
-//        System.out.println(Arrays.toString(quickSort(0, array.length - 1, array)));
-//        System.out.println(Arrays.toString(arr));
-//        System.out.println(Arrays.toString(quickSort(0, arr.length - 1, arr)));
+        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(quickSort(0, array.length - 1, array)));
+        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(quickSort(0, arr.length - 1, arr)));
+        int[] array2 = {0, 1, 1, 1, 2, 3, 5, 5, 5, 12, 33, 112};
+        System.out.println(Arrays.toString(quickSort(0,array2.length-1,array2)));
     }
 }

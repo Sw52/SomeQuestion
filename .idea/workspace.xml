@@ -2,50 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7df3224-ba9f-4a5f-a280-0231161eb4c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CodingInterview/二叉树的打印.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Ali/Problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Didi/Problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Didi/Problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Didi/Problem3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/SF/Problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/SF/Problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/SF/Problem3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/SF/Problem4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Yongyou/Problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Yongyou/Problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Yongyou/Problem3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Yongyou/Problem4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/Q22_链表中倒数第k个节点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/Q24_翻转链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/判断栈.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodingInterview/打印N个丑数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Second/Problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Second/Problem2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Second/Problem3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Second/Problem4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Tx/Second/Problem5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Xc/Problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Xc/Problem3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/大数问题.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/生产者AND消费者/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/生产者AND消费者/消费者.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/生产者AND消费者/生产者.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/约瑟夫环.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/设计模式/SingleObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q10_Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q11_MinNumberInRotatedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q12_StringPathInMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q13_RobotMove.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q14_CuttingRope.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q15_NumberOf1InBinary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q16_Power.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q17_Print1ToMaxOfNDigits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q18_01_DeleteNodeInList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q20_NumericStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q21_ReorderArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q3_2_FindDuplicationNoEdit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q3_DuplicationInArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q4_FindInPartiallySortedMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q5_ReplaceSpaces.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q6_PrintListInReversedOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q7_ConstructBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q9_QueueWithTwoStacks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q11_旋转数组中的最小元素.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q11_旋转数组中的最小元素.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q14_剪绳子.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q14_剪绳子.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q15_数字中1的个数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q15_数字中1的个数.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q17_打印从1到最答的n位数.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q17_打印从1到最答的n位数.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q18_01_删除链表的某个节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q18_01_删除链表的某个节点.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q20_字符串表示的数值.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q20_字符串表示的数值.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q21_数组奇偶调序.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q21_数组奇偶调序.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q6_逆序打印链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q6_逆序打印链表.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q7_二叉树重构.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q7_二叉树重构.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q9_栈实现队列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q9_栈实现队列.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Kdxf/Problem1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Kdxf/Problem2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/Kdxf/Problem3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/最长上升子序列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/最长上升子序列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q7_二叉树重构.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q7_二叉树重构.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/二叉树的打印.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/二叉树的打印.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/数列求和.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/数列求和.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Tx/Problem1/压缩算法.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Tx/Problem2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Tx/Problem3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Tx/Problem4/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Tx/Problem5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q11_旋转数组中的最小元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q11_旋转数组中的最小元素.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q12_矩阵中的字符串路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q12_矩阵中的字符串路径.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q13_机器人运动.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q13_机器人运动.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q14_剪绳子.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q14_剪绳子.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q15_数字中1的个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q15_数字中1的个数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q17_打印从1到最答的n位数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q17_打印从1到最答的n位数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q18_01_删除链表的某个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q18_01_删除链表的某个节点.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q21_数组奇偶调序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q21_数组奇偶调序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q6_逆序打印链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q6_逆序打印链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q9_栈实现队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q9_栈实现队列.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CodingInterview/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kdxf/Problem1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Kdxf/Problem1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kdxf/Problem2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kdxf/Problem3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Kdxf/Problem3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/practice/最长上升子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/practice/最长上升子序列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/二叉树的打印.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/二叉树的打印.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/数列求和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/数列求和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterVIew/Test360/Problem1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Test360/Problem1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterVIew/Tx/Problem1/压缩算法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/First/Problem1/压缩算法.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterVIew/Tx/Problem2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/First/Problem2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterVIew/Tx/Problem3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/First/Problem3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterVIew/Tx/Problem5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Tx/First/Problem5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +99,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/InterVIew/Yongyou" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/InterVIew/XiaoMi" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -88,22 +109,25 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="InterVIew.Yongyou.Problem4" />
-      <recent name="InterVIew.Yongyou.Problem3" />
-      <recent name="InterVIew.Yongyou.Problem2" />
-      <recent name="Kdxf.Problem3" />
-      <recent name="Kdxf.Problem2" />
+      <recent name="InterVIew.Xc.Problem4" />
+      <recent name="InterVIew.Xc.Problem3" />
+      <recent name="InterVIew.Xc.Problem2" />
+      <recent name="InterVIew.Tx.Second.Problem5" />
+      <recent name="InterVIew.Tx.Second.Problem4" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/InterVIew/XiaoMi" />
+      <recent name="$PROJECT_DIR$/src/InterVIew/Xc" />
+      <recent name="$PROJECT_DIR$/src/InterVIew/Tx/Second" />
       <recent name="$PROJECT_DIR$/src/InterVIew/Yongyou" />
       <recent name="$PROJECT_DIR$/src/InterVIew/SF" />
-      <recent name="$PROJECT_DIR$/src/InterVIew/Didi" />
-      <recent name="$PROJECT_DIR$/src/InterVIew/JD" />
-      <recent name="$PROJECT_DIR$/src/InterVIew/Yuanfudao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -118,13 +142,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q7_二叉树重构">
-    <configuration name="二叉树的打印" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingInterview.二叉树的打印" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="约瑟夫环" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.约瑟夫环" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodingInterview.*" />
+          <option name="PATTERN" value="sw.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FIle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.FIle" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +170,11 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterVIew.Ali.Problem1.Main" />
+      <option name="MAIN_CLASS_NAME" value="InterVIew.XiaoMi.Problem1.Main" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterVIew.Ali.Problem1.*" />
+          <option name="PATTERN" value="InterVIew.XiaoMi.Problem1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterVIew.Yongyou.Problem1.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterVIew.XiaoMi.Problem2.Main" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterVIew.Yongyou.Problem1.*" />
+          <option name="PATTERN" value="InterVIew.XiaoMi.Problem2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,64 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterVIew.Ali.Problem2.Main" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.Test" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterVIew.Ali.Problem2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q7_二叉树重构" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingInterview.Q7_二叉树重构" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodingInterview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="最长上升子序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.practice.最长上升子序列" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="丑数判断" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.practice.丑数判断" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="集合交叉并" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.practice.集合交叉并" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.practice.*" />
+          <option name="PATTERN" value="sw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q7_二叉树重构" />
-        <item itemvalue="Application.二叉树的打印" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.约瑟夫环" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FIle" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +284,12 @@
       <workItem from="1566888640362" duration="1505000" />
       <workItem from="1566903553622" duration="2750000" />
       <workItem from="1567075321939" duration="5630000" />
-      <workItem from="1567165338208" duration="16940000" />
+      <workItem from="1567165338208" duration="27118000" />
+      <workItem from="1567338848605" duration="8156000" />
+      <workItem from="1567388398787" duration="7000" />
+      <workItem from="1567564611513" duration="15668000" />
+      <workItem from="1567666632967" duration="2087000" />
+      <workItem from="1567668742178" duration="35256000" />
     </task>
     <servers />
   </component>
@@ -329,12 +319,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
-          <line>39</line>
+          <line>40</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
-          <line>41</line>
+          <line>42</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -359,27 +349,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
-          <line>22</line>
+          <line>21</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
-          <line>20</line>
+          <line>19</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
-          <line>25</line>
+          <line>24</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
-          <line>28</line>
+          <line>27</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
-          <line>27</line>
+          <line>26</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -628,197 +618,197 @@
           <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem3/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem3/Main.java</url>
           <line>17</line>
           <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>29</line>
           <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>30</line>
           <option name="timeStamp" value="170" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>31</line>
           <option name="timeStamp" value="171" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>33</line>
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>34</line>
           <option name="timeStamp" value="173" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>36</line>
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>38</line>
           <option name="timeStamp" value="175" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>35</line>
           <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>32</line>
           <option name="timeStamp" value="177" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>20</line>
           <option name="timeStamp" value="178" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>9</line>
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>10</line>
           <option name="timeStamp" value="181" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>12</line>
           <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="183" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>14</line>
           <option name="timeStamp" value="184" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>19</line>
           <option name="timeStamp" value="185" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>21</line>
           <option name="timeStamp" value="186" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>22</line>
           <option name="timeStamp" value="187" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>28</line>
           <option name="timeStamp" value="189" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>23</line>
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>37</line>
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>39</line>
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>40</line>
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>41</line>
           <option name="timeStamp" value="195" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>42</line>
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>46</line>
           <option name="timeStamp" value="200" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>47</line>
           <option name="timeStamp" value="201" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>48</line>
           <option name="timeStamp" value="202" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>49</line>
           <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>50</line>
           <option name="timeStamp" value="205" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>51</line>
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>52</line>
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>53</line>
           <option name="timeStamp" value="208" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>54</line>
           <option name="timeStamp" value="209" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>55</line>
           <option name="timeStamp" value="210" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>56</line>
           <option name="timeStamp" value="211" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Problem4/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>57</line>
           <option name="timeStamp" value="212" />
         </line-breakpoint>
@@ -1077,6 +1067,311 @@
           <line>94</line>
           <option name="timeStamp" value="368" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="472" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="476" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="480" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="481" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="483" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="485" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="486" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="491" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="492" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="493" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="494" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="495" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="496" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="499" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="501" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="505" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="506" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="507" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="594" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="595" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="596" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="597" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="598" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="599" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="600" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="601" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="609" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="610" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="611" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="612" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="613" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="614" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="615" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="616" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="617" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="618" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="619" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="620" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="621" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="623" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="626" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="627" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="628" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="629" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="631" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="632" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="633" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="634" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="635" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="637" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="638" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/practice/生产者AND消费者/test.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="671" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1084,21 +1379,5 @@
     <SUITE FILE_PATH="coverage/interviewQuestion$Sort.ic" NAME="Sort Coverage Results" MODIFIED="1564408806374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>CodingInterview.*</FILTER>
     </SUITE>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

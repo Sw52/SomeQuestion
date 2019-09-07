@@ -1,7 +1,5 @@
 package CodingInterview;
 
-import java.util.Arrays;
-
 public class Q17_打印从1到最答的n位数 {
     /**
      * 问题描述： 输入数字n，按顺序打印出1到最大的n位十进制整数。
@@ -16,7 +14,7 @@ public class Q17_打印从1到最答的n位数 {
         char[] number = new char[n + 1];
         number[n] = '\0';
 
-        for (int i = 0; i < 10;i++){
+        for (int i = 0; i < 10; i++) {
             number[0] = (char) (i + '0');
             printToMaxOfDigitsRecursively(number, n, 0);
         }
