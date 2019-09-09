@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7df3224-ba9f-4a5f-a280-0231161eb4c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sw/practice/两数之和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Oppo/Problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Oppo/Problem2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Oppo/Problem3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/ZhongXing/Problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/ZhongXing/Problem2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/ZhongXing/Problem3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/字符串排序.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/设计模式/两数之和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/进制转换.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/进制转换.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sw/practice/进制转换.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/practice/进制转换.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/InterVIew/XiaoMi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/InterVIew/ZhongXing" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,18 +63,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="InterVIew.Oppo.Problem3" />
+      <recent name="InterVIew.Oppo.Problem2" />
       <recent name="InterVIew.Xc.Problem4" />
       <recent name="InterVIew.Xc.Problem3" />
       <recent name="InterVIew.Xc.Problem2" />
-      <recent name="InterVIew.Tx.Second.Problem5" />
-      <recent name="InterVIew.Tx.Second.Problem4" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/InterVIew/ZhongXing" />
+      <recent name="$PROJECT_DIR$/src/InterVIew/Oppo" />
       <recent name="$PROJECT_DIR$/src/InterVIew/XiaoMi" />
       <recent name="$PROJECT_DIR$/src/InterVIew/Xc" />
       <recent name="$PROJECT_DIR$/src/InterVIew/Tx/Second" />
-      <recent name="$PROJECT_DIR$/src/InterVIew/Yongyou" />
-      <recent name="$PROJECT_DIR$/src/InterVIew/SF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -80,20 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.两数之和">
-    <configuration name="堆排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.practice.堆排序" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.进制转换">
     <configuration name="两数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sw.practice.两数之和" />
       <module name="interviewQuestion" />
@@ -107,38 +103,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.Sort" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.Test" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopK问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.practice.TopK问题" />
+    <configuration name="字符串排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.字符串排序" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sw.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="进制转换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.进制转换" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterVIew.Oppo.Problem1.Main" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterVIew.Oppo.Problem1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.ShareData" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.进制转换" />
+        <item itemvalue="Application.字符串排序" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ShareData" />
         <item itemvalue="Application.两数之和" />
-        <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TopK问题" />
-        <item itemvalue="Application.堆排序" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +237,7 @@
       <workItem from="1567564611513" duration="15668000" />
       <workItem from="1567666632967" duration="2087000" />
       <workItem from="1567668742178" duration="35256000" />
+      <workItem from="1567992776590" duration="4974000" />
     </task>
     <servers />
   </component>
