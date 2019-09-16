@@ -31,8 +31,8 @@ public class Test1 {
      */
     public static long solution(long n, long m) {
         long temp = 0;
-        temp = -1 + (m+1);
-        temp *= n/2;
+        temp = -1 + (m + 1);
+        temp *= n / 2;
 
         return temp;
     }
@@ -41,6 +41,6 @@ public class Test1 {
         Scanner scanner = new Scanner(System.in);
         long n = scanner.nextLong();
         long m = scanner.nextLong();
-        System.out.println(solution(n,m));
+        System.out.println(solution(n, m));
     }
 }

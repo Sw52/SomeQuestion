@@ -16,39 +16,39 @@ import java.util.Scanner;
  */
 public class 字符串去重 {
     /**
-     * @see 只保留第一次出现的字符
      * @param string
      * @return
+     * @see 只保留第一次出现的字符
      */
-    public static StringBuilder solution(String string){
+    public static StringBuilder solution(String string) {
         StringBuilder sb = new StringBuilder();
         boolean isSingle = false;
         for (int i = 0; i < string.length(); i++) {
             isSingle = true;
-            for (int j = i-1; j >=0; j--) {
-                if(string.charAt(i)==string.charAt(j)){
+            for (int j = i - 1; j >= 0; j--) {
+                if (string.charAt(i) == string.charAt(j)) {
                     isSingle = false;
                     break;
                 }
             }
-            if(isSingle)
+            if (isSingle)
                 sb.append(string.charAt(i));
         }
         return sb;
     }
 
     /**
-     * @see 重复元素都去除
      * @param string
      * @return
+     * @see 重复元素都去除
      */
-    public static StringBuilder solution_2(String string){
+    public static StringBuilder solution_2(String string) {
         StringBuilder sb = new StringBuilder();
         boolean[] arr = new boolean[string.length()];
-        Arrays.fill(arr,true);
+        Arrays.fill(arr, true);
         for (int i = 0; i < string.length(); i++) {
-            for (int j = i-1; j >=0; j--) {
-                if(string.charAt(i)==string.charAt(j)){
+            for (int j = i - 1; j >= 0; j--) {
+                if (string.charAt(i) == string.charAt(j)) {
                     arr[i] = false;
                     arr[j] = false;
                     break;
@@ -56,7 +56,7 @@ public class 字符串去重 {
             }
         }
         for (int i = 0; i < string.length(); i++) {
-            if(arr[i])
+            if (arr[i])
                 sb.append(string.charAt(i));
         }
         return sb;

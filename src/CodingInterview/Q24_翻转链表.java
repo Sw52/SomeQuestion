@@ -9,21 +9,35 @@ public class Q24_翻转链表 {
      * @param listNode
      * @return
      * @author SwYoung
-     * @see 链表翻转
+     * @see 迭代方式实现链表翻转
      */
-    public static ListNode reverseList(ListNode listNode) {
-        ListNode pNewHead = null;   //定义翻转后的新头结点
-        ListNode pPre = null;       //定义前向节点
-        while (listNode != null) {
-            ListNode pNext = listNode.next; //定义后向节点
-            if (pNext == null) {    //后向节点为空时，说明已经到达链表尾
-                pNewHead = listNode;//给新头结点赋值
-            }
-            listNode.next = pPre;   //将原先的前向节点编程现在的后向节点
-            pPre = listNode;        //更新前向节点，将现在的节点定义为新的前向节点
-            listNode = pNext;       //更新当前节点
+    public static ListNode reverseList(ListNode pHead) {
+        if (pHead == null || pHead.next == null)    //如果头结点为空或者只有一个节点，则返回头结点
+            return pHead;
+        ListNode pPrev = pHead.next;    //定义一个节点指向头结点的下一个节点
+        ListNode pNext = null;  //定义后向节点
+        while (pPrev != null) {
+            pHead.next = pNext; //让头结点指向后向节点
+            pNext = pHead;      //更新厚向节点
+            pHead = pPrev;      //头结点向后移
+            pPrev = pPrev.next; //更新前向节点
+            pHead.next = pNext; //连接头结点的下一节点
         }
-        return pNewHead;
+        return pHead;
+    }
+
+    /**
+     * @param head
+     * @return
+     * @see 递归实现链表翻转
+     */
+    public static ListNode reverseListNode(ListNode head) {
+        if (head == null || head.next == null)
+            return head;
+        ListNode newHead = reverseListNode(head.next);
+        head.next.next = head;
+        head.next = null;
+        return newHead;
     }
 
 
@@ -41,7 +55,7 @@ public class Q24_翻转链表 {
         ListNode.printListNode(pHead);
         System.out.println();
         ListNode.printListNode(reverseList(pHead));
-
+        //ListNode.printListNode(reverseListNode(pHead));
     }
 
 }

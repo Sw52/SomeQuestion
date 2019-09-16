@@ -1,9 +1,9 @@
 package sw.practice;
 
 public class 质数判断 {
-    public static boolean isPrime(int n){
+    public static boolean isPrime(int n) {
         for (int i = 2; i < n; i++) {
-            if (n%i==0)
+            if (n % i == 0)
                 return false;
         }
         return true;

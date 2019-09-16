@@ -1,6 +1,5 @@
 package InterVIew.XiaoMi.Problem2;
 
-import java.nio.file.LinkPermission;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -12,10 +11,10 @@ public class Main {
     ******************************开始写代码******************************/
     static int solution(int[] prices, int budget) {
         Arrays.sort(prices);
-        if (budget<prices[prices.length-1])
+        if (budget < prices[prices.length - 1])
             return -1;
         int res = 0;
-        for (int i = prices.length-1; i >=0; i--) {
+        for (int i = prices.length - 1; i >= 0; i--) {
             int temp = budget / prices[i];
             res += temp;
             budget -= prices[i] * temp;
@@ -43,7 +42,7 @@ public class Main {
         _budget = Integer.parseInt(in.nextLine().trim());
 
         res = solution(_prices, _budget);
-        System.out.println(String.valueOf(res));
+        System.out.println(res);
 
     }
 }

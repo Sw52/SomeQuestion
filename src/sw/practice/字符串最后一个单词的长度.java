@@ -39,7 +39,7 @@ public class 字符串最后一个单词的长度 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String str = new String();
+        String str = "";
         str = scanner.nextLine();  //采用nextline 可以获取整个一行的值,包含空格的值
         System.out.println(solution(str));
     }

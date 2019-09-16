@@ -12,7 +12,7 @@ public class Main {
                 if (gam == false) {
                     gam = true;
                     cam = false;
-                }else {
+                } else {
                     days++;
                     cam = false;
                     gam = false;
@@ -21,7 +21,7 @@ public class Main {
                 if (cam == false) {
                     cam = true;
                     gam = false;
-                }else {
+                } else {
                     days++;
                     cam = false;
                     gam = false;
@@ -40,7 +40,7 @@ public class Main {
                     } else if (i + 1 < n && GamStatus[i + 1] == 1) {
                         gam = false;
                         cam = true;
-                    }else {
+                    } else {
                         gam = true;
                         cam = false;
                     }
@@ -49,7 +49,7 @@ public class Main {
                     cam = false;
                     gam = false;
                 }
-            }else if (camplayStatus[i]==0&&GamStatus[i]==0){
+            } else if (camplayStatus[i] == 0 && GamStatus[i] == 0) {
                 days++;
                 cam = false;
                 gam = false;
@@ -69,6 +69,6 @@ public class Main {
         for (int i = 0; i < n; i++) {
             GamStatus[i] = scanner.nextInt();
         }
-        System.out.println(solution(n,camplayStatus,GamStatus));
+        System.out.println(solution(n, camplayStatus, GamStatus));
     }
 }

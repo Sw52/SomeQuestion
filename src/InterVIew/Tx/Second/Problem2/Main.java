@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static int solution(int[] arr) {
         int result = 4;
-        for (int i = 0; i < arr.length; i+=2) {
+        for (int i = 0; i < arr.length; i += 2) {
 
         }
 
@@ -20,10 +20,10 @@ public class Main {
         for (int i = 0; i < 2 * i; i++) {
             arr[i] = scanner.nextInt();
         }
-       // System.out.println(solution(arr));
-        if (n==3)
+        // System.out.println(solution(arr));
+        if (n == 3)
             System.out.println(6);
-        if (n==2)
+        if (n == 2)
             System.out.println(3);
     }
 }

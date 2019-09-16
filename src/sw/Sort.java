@@ -269,10 +269,10 @@ public class Sort {
     }
 
     /**
-     * @ 合并两个有序序列
      * @param left
      * @param right
      * @return
+     * @ 合并两个有序序列
      */
     public static int[] merge(int[] left, int[] right) {
         int[] result = new int[left.length + right.length];

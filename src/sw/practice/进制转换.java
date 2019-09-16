@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class 进制转换 {
     /**
      * 将输入的十进制数M转换成N进制数
+     *
      * @param M
      * @param N
      * @return
@@ -22,7 +23,7 @@ public class 进制转换 {
                 M /= N;
             }
         } else {    //处理负数
-            sb =  trans(-M, N).reverse();
+            sb = trans(-M, N).reverse();
             sb.append('-');
         }
         return sb.reverse();

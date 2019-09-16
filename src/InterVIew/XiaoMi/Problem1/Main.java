@@ -1,11 +1,8 @@
 package InterVIew.XiaoMi.Problem1;
 
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
+import java.util.Stack;
 
 public class Main {
 
@@ -16,25 +13,25 @@ public class Main {
     static void solution(String input) {
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < input.length(); i++) {
-            if(input.charAt(i)!=',')
+            if (input.charAt(i) != ',')
                 stack.push(input.charAt(i));
             else {
                 boolean isF = false;
-                while (true){
+                while (true) {
                     if (stack.isEmpty())
                         break;
-                    if (isF&&stack.peek()=='(')
+                    if (isF && stack.peek() == '(')
                         break;
-                    if (stack.peek()=='(')
+                    if (stack.peek() == '(')
                         isF = true;
-                    if (stack.peek()<='9'&&stack.peek()>='0')
+                    if (stack.peek() <= '9' && stack.peek() >= '0')
                         System.out.print(stack.pop());
                     else
                         stack.pop();
                 }
-                int j = i+1;
-                if (input.charAt(j)<='9'&&input.charAt(j)>='0'){
-                    if (stack.isEmpty()){
+                int j = i + 1;
+                if (input.charAt(j) <= '9' && input.charAt(j) >= '0') {
+                    if (stack.isEmpty()) {
                         stack.push(input.charAt(j));
                     }
                     System.out.print(stack.pop());
@@ -43,13 +40,13 @@ public class Main {
             }
         }
     }
+
     /******************************结束写代码******************************/
 
     //测试用例
     //1(2(3,4(,5)),6(7,))
     //3245176
-
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String res;
 

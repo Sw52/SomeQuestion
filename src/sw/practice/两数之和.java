@@ -23,19 +23,19 @@ public class 两数之和 {
      */
 
     /**
-     * @see 方法一：暴力求解
-     * 遍历两边数组，时间复杂度O(n^2)空间复杂度O(1)
      * @param arr
      * @param target
      * @return
+     * @see 方法一：暴力求解
+     * 遍历两边数组，时间复杂度O(n^2)空间复杂度O(1)
      */
-    public static int[] solution_1(int[] arr,int target){
+    public static int[] solution_1(int[] arr, int target) {
         int[] result = new int[2];
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length&&i!=j; j++) {
-                if (arr[i]+arr[j]==target){
-                    result[0]=Math.min(i,j);
-                    result[1]=Math.max(i,j);
+            for (int j = 0; j < arr.length && i != j; j++) {
+                if (arr[i] + arr[j] == target) {
+                    result[0] = Math.min(i, j);
+                    result[1] = Math.max(i, j);
                     return result;
                 }
             }
@@ -44,24 +44,24 @@ public class 两数之和 {
     }
 
     /**
-     * @see 方法二：遍历两遍hash表
-     * 利用hash查找为O(1)的优势
-     * 时间复杂度O(n)，空间复杂度O(n)
      * @param arr
      * @param target
      * @return
+     * @see 方法二：遍历两遍hash表
+     * 利用hash查找为O(1)的优势
+     * 时间复杂度O(n)，空间复杂度O(n)
      */
-    public static int[] solution_2(int[]arr,int target){
+    public static int[] solution_2(int[] arr, int target) {
         int[] result = new int[2];
-        HashMap<Integer,Integer> hashMap = new HashMap<>();
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
         for (int i = 0; i < arr.length; i++) {
-            hashMap.put(arr[i],i);
+            hashMap.put(arr[i], i);
         }
         for (int i = 0; i < arr.length; i++) {
             int complement = target - arr[i];
-            if (hashMap.containsKey(complement)&&hashMap.get(complement)!=i){
-                result[0] = Math.min(hashMap.get(complement),i);
-                result[1] = Math.max(hashMap.get(complement),i);
+            if (hashMap.containsKey(complement) && hashMap.get(complement) != i) {
+                result[0] = Math.min(hashMap.get(complement), i);
+                result[1] = Math.max(hashMap.get(complement), i);
                 return result;
             }
         }
@@ -69,9 +69,9 @@ public class 两数之和 {
     }
 
     public static void main(String[] args) {
-        int[] nums = {2,7,11,15};
+        int[] nums = {2, 7, 11, 15};
         int target = 9;
         //System.out.println(Arrays.toString(solution_1(nums,target)));
-        System.out.println(Arrays.toString(solution_2(nums,target)));
+        System.out.println(Arrays.toString(solution_2(nums, target)));
     }
 }

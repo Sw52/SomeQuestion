@@ -1,28 +1,26 @@
 package sw.practice;
 
 import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.TreeSet;
 
 public class 字符串排序 {
     /**
-     * @see 对字符串进行排序
      * @param strings
      * @return
+     * @see 对字符串进行排序
      */
-    public static String[] stringSort(String[] strings){
-        return stringSort(strings,0,strings.length-1);
+    public static String[] stringSort(String[] strings) {
+        return stringSort(strings, 0, strings.length - 1);
     }
 
     /**
      * 对字符串进行排序，采用快速排序
+     *
      * @param strings
      * @param indexLeft
      * @param indexRight
      * @return
      */
-    public static String[] stringSort(String[] strings,int indexLeft,int indexRight){
+    public static String[] stringSort(String[] strings, int indexLeft, int indexRight) {
         if (strings == null)  //判断输入合法性
             return null;
         if (indexLeft >= indexRight)    //递归边界（基线条件）
@@ -47,13 +45,13 @@ public class 字符串排序 {
         strings[left] = key;
 
         //递归查找个子部分
-        stringSort(strings,indexLeft, left - 1);
-        stringSort(strings,left + 1, indexRight);
+        stringSort(strings, indexLeft, left - 1);
+        stringSort(strings, left + 1, indexRight);
         return strings;
     }
 
     public static void main(String[] args) {
-        String[] strings = {"abc","fb","zvb","fgd","gff","dd","kkk"};
+        String[] strings = {"abc", "fb", "zvb", "fgd", "gff", "dd", "kkk"};
         System.out.println(Arrays.toString(strings));
         System.out.println(Arrays.toString(stringSort(strings)));
     }

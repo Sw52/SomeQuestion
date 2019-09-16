@@ -7,22 +7,24 @@ public class Q22_链表中倒数第k个节点 {
      */
 
     /**
-     * @see
      * @param head
      * @param k
-     * @return
+     * @return 思路：
+     * 这只两个指针，第一个先走K步，然后两个指针一起走，
+     * 直到指针1到末尾的时候指针2指向的就是倒数第K个节点
+     * @see 查询链表的倒数第K个节点
      */
     public static ListNode FindKthToTail(ListNode head, int k) {
         if (head == null)
             return null;
         ListNode listNode = head;
-        for (int i = 0; i < k; i++) {
-            if (listNode.next == null)
+        for (int i = 0; i < k; i++) {   //指针1先向后走K步
+            if (listNode == null)
                 return null;
             listNode = listNode.next;
         }
         ListNode res = head;
-        while (listNode != null) {
+        while (listNode != null) {      //两个指针同时向后走，直到指针1到链表尾
             listNode = listNode.next;
             res = res.next;
         }
@@ -45,6 +47,6 @@ public class Q22_链表中倒数第k个节点 {
         p5.next = p6;
         ListNode.printListNode(head);
         System.out.println();
-        System.out.println(FindKthToTail(head,4).val);
+        System.out.println(FindKthToTail(head, 7).val);
     }
 }

@@ -9,13 +9,13 @@ public class 堆排序 {
      */
     public int[] heapSort(int[] array) {
         int len = array.length;
-        buildMinHeap(array,len);    //创建原始小顶堆
+        buildMinHeap(array, len);    //创建原始小顶堆
         for (int i = array.length - 1; i > 0; i--) {
             int temp = array[0];
             array[0] = array[i];
             array[i] = temp;
             len--;
-            heapify(array,0,len);
+            heapify(array, 0, len);
         }
         return array;
     }

@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Main {
 
 
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -25,12 +24,14 @@ public class Main {
             }
         }
 
-        int minimumTimeCost = getMinimumTimeCost(n,area);
+        int minimumTimeCost = getMinimumTimeCost(n, area);
         System.out.println(minimumTimeCost);
     }
 
     /** 请完成下面这个函数，实现题目要求的功能 **/
-    /** 当然，你也可以不按照这个模板来作答，完全按照自己的想法来 ^-^  **/
+    /**
+     * 当然，你也可以不按照这个模板来作答，完全按照自己的想法来 ^-^
+     **/
     private static int getMinimumTimeCost(int n, int[][] area) {
         return 76;
     }

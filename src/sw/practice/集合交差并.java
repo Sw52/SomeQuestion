@@ -22,16 +22,16 @@ public class 集合交差并 {
         result.clear();
         result.addAll(set1);
         result.retainAll(set2); //仅保留set2也含有的元素
-        System.out.println("交集"+result);
+        System.out.println("交集" + result);
 
         result.clear();
         result.addAll(set1);
         result.removeAll(set2); //去除掉set2中含有的元素
-        System.out.println("差集"+result);
+        System.out.println("差集" + result);
 
         result.clear();
         result.addAll(set1);
         result.addAll(set2);    //添加set2中的元素
-        System.out.println("并集"+result);
+        System.out.println("并集" + result);
     }
 }

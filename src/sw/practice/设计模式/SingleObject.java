@@ -11,18 +11,19 @@ public class SingleObject {
     /**
      * 私有构造函数
      */
-    private SingleObject(){
+    private SingleObject() {
     }
 
     /**
-     * @see 唯一获取对象的方法
      * @return
+     * @see 唯一获取对象的方法
      */
-    public static synchronized SingleObject getInstance(){
-        if (instance==null)
+    public static synchronized SingleObject getInstance() {
+        if (instance == null)
             instance = new SingleObject();  //延迟加载，区别于饿汉式
         return instance;
     }
+
     public static void main(String[] args) {
 
     }

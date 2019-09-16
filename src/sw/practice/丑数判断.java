@@ -2,10 +2,10 @@ package sw.practice;
 
 public class 丑数判断 {
     /**
-     * @see 判断丑数
-     * 丑数：只能被2、3和5整除的正整数数，1是第一个丑数
      * @param n
      * @return
+     * @see 判断丑数
+     * 丑数：只能被2、3和5整除的正整数数，1是第一个丑数
      */
     public static boolean isUgly(int n) {
         if (n >= 1) {
@@ -18,9 +18,7 @@ public class 丑数判断 {
             while (n % 5 == 0) {
                 n = n / 5;
             }
-            if (n == 1) {
-                return true;
-            }
+            return n == 1;
         }
         return false;
     }

@@ -1,12 +1,10 @@
 package leetCode;
 
-import java.lang.reflect.Array;
-import java.util.*;
+import java.util.Arrays;
 
 public class 两数之和 {
 
     /**
-     *
      * @param nums
      * @param target
      * @return
@@ -19,8 +17,8 @@ public class 两数之和 {
             for (int j = 0; j < nums.length; j++) {
                 if (i != j) {
                     if (nums[i] + nums[j] == target) {
-                        arr[0]=i;
-                        arr[1]=j;
+                        arr[0] = i;
+                        arr[1] = j;
                     }
                 }
             }

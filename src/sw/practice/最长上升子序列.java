@@ -32,17 +32,17 @@ public class 最长上升子序列 {
      */
     public static int lengthOfLIS(int[] nums) {
         int[] db = new int[nums.length];
-        Arrays.fill(db,1);
+        Arrays.fill(db, 1);
 
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < i; j++) {
-                if (nums[j]<nums[i])
-                    db[i] = Math.max(db[i],db[j]+1);
+                if (nums[j] < nums[i])
+                    db[i] = Math.max(db[i], db[j] + 1);
             }
         }
         int result = 0;
         for (int i = 0; i < db.length; i++) {
-            result = Math.max(result,db[i]);
+            result = Math.max(result, db[i]);
         }
         return result;
     }

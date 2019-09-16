@@ -3,7 +3,7 @@ package InterVIew.Tx.First.Problem5;
 import java.util.Scanner;
 
 public class Main {
-    public static void solution(){
+    public static void solution() {
 
     }
 

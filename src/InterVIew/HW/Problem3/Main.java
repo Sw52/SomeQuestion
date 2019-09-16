@@ -46,7 +46,7 @@ public class Main {
                 if (isset)
                     break;
             }
-            String tem = list[i].substring(k, list[i].length());
+            String tem = list[i].substring(k);
             for (String s : set
             ) {
                 if (s.equals(tem))
@@ -62,7 +62,7 @@ public class Main {
                         h = j + 1;
                     }
                 }
-                String temp = list[i].substring(h, list[i].length());
+                String temp = list[i].substring(h);
                 set.add(temp);
             }
         }
@@ -74,7 +74,7 @@ public class Main {
         String name = sc.next();
         int n = sc.nextInt();
 
-        String list[] = new String[n];
+        String[] list = new String[n];
         for (int i = 0; i < n; i++) {
             list[i] = sc.nextLine();
         }

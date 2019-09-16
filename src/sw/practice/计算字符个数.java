@@ -24,26 +24,27 @@ A
 public class 计算字符个数 {
 
     /**
-     * @see 计算字符个数
      * @param string
      * @param target
      * @return
+     * @see 计算字符个数
      */
-    public static int solution(String string,char target){
+    public static int solution(String string, char target) {
         string = string.toUpperCase(); //将字符串都转换成大写格式
         target = Character.toUpperCase(target);//将目标字符转换成大写格式
         int res = 0;
         for (int i = 0; i < string.length(); i++) {//循环进行比对
-            if (string.charAt(i)==target)
+            if (string.charAt(i) == target)
                 res++;
         }
         return res;
     }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.next();
         String str_target = scanner.next();
         char target = str_target.charAt(0);
-        System.out.println(solution(str,target));
+        System.out.println(solution(str, target));
     }
 }

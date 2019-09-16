@@ -24,31 +24,31 @@ boy a am I
  */
 public class 句子逆序 {
     /**
-     * @see 英文句子单词翻转
      * @param string
      * @return
+     * @see 英文句子单词翻转
      */
-    public static String solution(String string){
+    public static String solution(String string) {
         String result;
         string = string.concat(" ");
         StringBuffer sb = new StringBuffer();
         Stack stack = new Stack();
-        for (int i = string.length()-1 ; i >=0 ; i--) {
-            while (string.charAt(i)==' '){
-                while (stack.empty()!=true){
+        for (int i = string.length() - 1; i >= 0; i--) {
+            while (string.charAt(i) == ' ') {
+                while (stack.empty() != true) {
                     sb.append(stack.pop());
                 }
-                if (i==0)
+                if (i == 0)
                     break;
                 i--;
             }
-            if (string.charAt(i)!=' '){
-                if (i!=string.length()-1&&string.charAt(i+1)==' '){
+            if (string.charAt(i) != ' ') {
+                if (i != string.length() - 1 && string.charAt(i + 1) == ' ') {
                     stack.push(' ');
                 }
                 stack.push(string.charAt(i));
-                if(i==0){
-                    while (stack.empty()!=true){
+                if (i == 0) {
+                    while (stack.empty() != true) {
                         sb.append(stack.pop());
                     }
                     break;
@@ -56,9 +56,9 @@ public class 句子逆序 {
             }
         }
         int sblength = sb.length();
-        if(sblength!=0){
-            result = sb.substring(0,sblength-1);
-        }else {
+        if (sblength != 0) {
+            result = sb.substring(0, sblength - 1);
+        } else {
             return "";
         }
         return result;

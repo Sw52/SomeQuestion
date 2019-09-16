@@ -7,11 +7,11 @@ public class TopK问题 {
      */
 
     /**
-     * @see 查找数组中前K大个数
-     * 思路：采用堆排序输出前K大个数
      * @param array
      * @param k
      * @return
+     * @see 查找数组中前K大个数
+     * 思路：采用堆排序输出前K大个数
      */
     public int[] topK(int[] array, int k) {
         int len = array.length;

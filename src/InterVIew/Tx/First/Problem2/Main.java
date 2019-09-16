@@ -3,24 +3,24 @@ package InterVIew.Tx.First.Problem2;
 import java.util.Scanner;
 
 public class Main {
-    public static int solution(int n,int L,int[][]array){
+    public static int solution(int n, int L, int[][] array) {
         int temp = 0;
         int goal = 0;
-        int i =0;
+        int i = 0;
         while (true) {
-            if (i<n&&array[i][0]<L&&array[i][0]==goal){
+            if (i < n && array[i][0] < L && array[i][0] == goal) {
                 goal = array[i][1];
                 temp++;
                 array[i][0] = L;
-                if(array[i][1]>=L)
+                if (array[i][1] >= L)
                     break;
-            }else if (i<n&&array[i][0]<goal&&array[i][1]>=L){
+            } else if (i < n && array[i][0] < goal && array[i][1] >= L) {
                 temp++;
                 break;
             }
             i++;
-            if(i>=n)
-                i=0;
+            if (i >= n)
+                i = 0;
 
         }
         return temp;
@@ -36,6 +36,6 @@ public class Main {
             array[i][0] = scanner.nextInt();
             array[i][1] = scanner.nextInt();
         }
-        System.out.println(solution(n,L,array));
+        System.out.println(solution(n, L, array));
     }
 }

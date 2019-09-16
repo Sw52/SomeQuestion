@@ -26,8 +26,8 @@ abc00000
 public class 字符串分隔 {
 
     /**
-     * @see 字符串分隔
      * @param strings
+     * @see 字符串分隔
      */
     public static void solution(String[] strings) {
         for (int j = 0; j < 2; j++) {
@@ -37,7 +37,7 @@ public class 字符串分隔 {
             }
             int temp2 = strings[j].length() % 8; //计算最后一组长度不满足8的子字符串的长度
             System.out.print(strings[j].subSequence(temp * 8, temp * 8 + temp2));
-            if (strings[j].length() % 8 != 0){
+            if (strings[j].length() % 8 != 0) {
                 for (int i = 0; i < 8 - temp2; i++) {
                     System.out.print(0);    //补零输出
                 }

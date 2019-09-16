@@ -9,6 +9,7 @@ import java.util.Scanner;
  */
 public class Main {
     public static StringBuilder solution(String string) {
+
         StringBuilder sb = new StringBuilder();
         int count = 0;
         int i = 0;
@@ -24,7 +25,6 @@ public class Main {
         }
 
         for (; i < string.length(); i++) {
-
             if (string.charAt(i) == 'A') {
                 sb.append("12 34");
                 count++;
@@ -38,10 +38,23 @@ public class Main {
         }
         sb.deleteCharAt(0);
 
-        System.out.print(count);    //问题所在：count需要转成16进制
+        char[] nums = {'0', 'A', 'B', 'C', 'D', 'E', 'F'};
+        StringBuilder stringBuilder = new StringBuilder();
+        while (count > 0) {
+            if (count % 16 < 10)
+                stringBuilder.append(count % 16);
+            else
+                stringBuilder.append(nums[count % 16 - 10]);
+            count /= 16;
+        }
+        System.out.print(stringBuilder.reverse());    //问题所在：count需要转成16进制
         System.out.println(sb);
         return sb;
     }
+//    public static void solution(String str){
+//        LinkedList<String> linkedList = new LinkedList<>();
+//
+//    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

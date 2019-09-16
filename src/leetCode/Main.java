@@ -22,8 +22,8 @@ public class Main {
             while (j + k < array.length) {
                 if (array[j + k] > array[j]) {
                     temp++;
-                    j+=k;
-                    k=1;
+                    j += k;
+                    k = 1;
                 } else {
                     k++;
                 }

@@ -77,19 +77,19 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int n = 0;
         int k = 0;
-        if (scanner.hasNext()){
+        if (scanner.hasNext()) {
             n = scanner.nextInt();
             k = scanner.nextInt();
         }
         int[][] arr = new int[n][2];
         for (int i = 0; i < n; i++) {
-            if (scanner.hasNext()){
+            if (scanner.hasNext()) {
                 arr[i][0] = scanner.nextInt();
                 arr[i][1] = scanner.nextInt();
             }
         }
         for (int i = 0; i < n; i++) {
-            System.out.println(Long.toString(solution(arr[i][0], arr[i][1], k)));
+            System.out.println(solution(arr[i][0], arr[i][1], k));
         }
     }
 }

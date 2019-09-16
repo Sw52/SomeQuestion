@@ -1,5 +1,6 @@
 package CodingInterview;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Q21_数组奇偶调序 {
@@ -30,11 +31,41 @@ public class Q21_数组奇偶调序 {
         }
     }
 
+    /**
+     * 输入一个整数数组，实现一个函数来调整该数组中数字的顺序，
+     * 使得所有的奇数位于数组的前半部分，所有的偶数位于数组的后半部分，
+     * 并保证奇数和奇数，偶数和偶数之间的相对位置不变。
+     *
+     * @param array
+     */
+    public static void reOrderArray(int[] array) {
+        if (array == null)
+            return;
+        ArrayList<Integer> Odd = new ArrayList<>();
+        ArrayList<Integer> Even = new ArrayList<>();
+        for (int i = 0; i < array.length; i++) {
+            if ((array[i] & 0x01) == 0)
+                Even.add(array[i]);
+            else
+                Odd.add(array[i]);
+        }
+        for (int i = 0; i < Odd.size(); i++)
+            array[i] = Odd.get(i);
+        for (int i = 0; i < Even.size(); i++)
+            array[i + Odd.size()] = Even.get(i);
+    }
+
     public static void main(String[] args) {
-        int[] array = {1, 2, 3, 4, 5};
+        int[] array = {1, 2, 3, 4, 5, 6, 7};
+        System.out.println("调整前： \n" + Arrays.toString(array));
         reorderOddEven(array);
-        System.out.println(Arrays.toString(array));
-        short s = 16;
+        System.out.println("不要求顺序保持\n" + Arrays.toString(array));
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i + 1;
+        }
+        System.out.println("调整前： \n" + Arrays.toString(array));
+        reOrderArray(array);
+        System.out.println("不要求顺序保持\n" + Arrays.toString(array));
     }
 
 

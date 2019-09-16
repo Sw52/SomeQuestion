@@ -31,20 +31,20 @@ public class Test2 {
     输出例子1:
     5
      */
-    public static int solution(int[]array) {
-        if(array==null)
+    public static int solution(int[] array) {
+        if (array == null)
             return 0;
-        if (array.length==1)
+        if (array.length == 1)
             return array[0];
 
         Arrays.sort(array);
         int temp = 0;
 
-        for (int i=array.length-1;i>0;i-=2){
-            temp += array[i]-array[i-1];
+        for (int i = array.length - 1; i > 0; i -= 2) {
+            temp += array[i] - array[i - 1];
         }
-        if(array.length%2==1)
-            temp+=array[0];
+        if (array.length % 2 == 1)
+            temp += array[0];
         return temp;
     }
 

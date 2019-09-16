@@ -1,6 +1,7 @@
 package InterVIew.Tx.Second.Problem1;
 
 import java.util.Scanner;
+
 /*
 钥匙打开锁，钥匙和锁的数字和为奇数时可以打开
  */

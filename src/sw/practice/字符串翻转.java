@@ -21,13 +21,13 @@ abcd
 dcba
  */
 public class 字符串翻转 {
-    public static StringBuilder solution(String string){
+    public static StringBuilder solution(String string) {
         Stack<Character> stack = new Stack<>(); //利用栈结构的LIFO特性来使传入的字符串倒序
         for (int i = 0; i < string.length(); i++) {
             stack.push(string.charAt(i));
         }
         StringBuilder sb = new StringBuilder();
-        while (stack.empty()!=true){
+        while (stack.empty() != true) {
             sb.append(stack.pop());
         }
         return sb;

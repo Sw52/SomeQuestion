@@ -17,7 +17,7 @@ public class 字符串加解密 {
                 sb.append("A");
             else if (string.charAt(i) < '9' && string.charAt(i) >= '0')
                 sb.append((char) (string.charAt(i) + 1));
-            else if (string.charAt(i)=='9')
+            else if (string.charAt(i) == '9')
                 sb.append("0");
         }
         return sb;
@@ -36,7 +36,7 @@ public class 字符串加解密 {
                 sb.append("Z");
             else if (string.charAt(i) <= '9' && string.charAt(i) > '0')
                 sb.append((char) (string.charAt(i) - 1));
-            else if (string.charAt(i)=='0')
+            else if (string.charAt(i) == '0')
                 sb.append('9');
         }
         return sb;
@@ -44,7 +44,7 @@ public class 字符串加解密 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        while (scanner.hasNext()){
+        while (scanner.hasNext()) {
             String str1 = scanner.next();
             String str2 = scanner.next();
 

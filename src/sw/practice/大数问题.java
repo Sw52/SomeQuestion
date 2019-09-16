@@ -56,17 +56,16 @@ public class 大数问题 {
     }
 
     /**
-     * @see 大数乘法
      * @param str1
      * @param str2
-     * @return
-     * 思路：
+     * @return 思路：
      * 用字符串表示大数，模拟乘法
+     * @see 大数乘法
      */
     public static String multiply(String str1, String str2) {
-        if(str1==null||str2==null)  //输入有误的情况
+        if (str1 == null || str2 == null)  //输入有误的情况
             return "出错";
-        if(str1.equals("0")||str2.equals("0"))//因子中有一个是0的情况
+        if (str1.equals("0") || str2.equals("0"))//因子中有一个是0的情况
             return "0";
         String num1;
         String num2;
@@ -82,7 +81,7 @@ public class 大数问题 {
             sb[i] = new StringBuilder();
             int x = num2.charAt(i) - 48;
             int temp = 0;
-            for (int j = 0; j < num2.length()-i-1; j++) {
+            for (int j = 0; j < num2.length() - i - 1; j++) {
                 sb[i].append("0");  //错位补0
             }
             for (int j = num1.length() - 1; j >= 0; j--) {
@@ -96,13 +95,14 @@ public class 大数问题 {
         }
         String sr = String.valueOf(sb[0].reverse());
         for (int i = 1; i < num2.length(); i++) {
-             sr = add(sr, String.valueOf(sb[i].reverse()));
+            sr = add(sr, String.valueOf(sb[i].reverse()));
         }
         return sr;
     }
 
     /**
      * 测试
+     *
      * @param args
      */
     public static void main(String[] args) {
