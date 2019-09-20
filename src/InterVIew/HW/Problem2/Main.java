@@ -28,7 +28,7 @@ public class Main {
         for (int i : list
         ) {
             shi += i / 10 % 10;   //求各质数十位数字的和
-            ge += i % 10;       //求各质数各位数字的和
+            ge += i % 10;       //求各质数个位数字的和
         }
         System.out.println((shi <= ge) ? shi : ge); //输出各位数字和与十位数字和中较小的那个
     }

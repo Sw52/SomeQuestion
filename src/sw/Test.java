@@ -104,6 +104,7 @@ public class Test {
         System.out.println(hashMap.get(null));
         hashMap.put(5, null);
         System.out.println(hashMap.get(5));
+
     }
 
 }
