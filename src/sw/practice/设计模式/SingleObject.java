@@ -3,21 +3,22 @@ package sw.practice.设计模式;
 /**
  * 饿汉式，线程安全的单例模式
  */
-class Singleton {
+class SingleHungry {
     //申明一个私有单利模式对象
-    private static Singleton instance = new Singleton();
+    //初始即加载
+    private static SingleHungry instance = new SingleHungry();
 
     /**
      * 私有构造函数
      */
-    private Singleton() {
+    private SingleHungry() {
     }
 
     /**
      * @return
      * @see 唯一获取对象的方法
      */
-    public static Singleton getInstance() {
+    public static SingleHungry getInstance() {
         return instance;
     }
 }
@@ -27,6 +28,7 @@ class Singleton {
  */
 class SingleDCL {
     //申明一个私有的单例模式对象
+    //使用volatile关键字禁止指令重排序
     private static volatile SingleDCL instance;
 
     /**
@@ -41,10 +43,10 @@ class SingleDCL {
      * @return
      */
     public static SingleDCL getInstance() {
-        if (instance == null) {// 第一重检查锁定
-            synchronized (SingleDCL.class) {// 同步锁定代码块
-                if (instance == null)// 第二重检查锁定
-                    instance = new SingleDCL();// 注意：非原子操作
+        if (instance == null) {                 // 第一重检查锁定
+            synchronized (SingleDCL.class) {    // 同步锁定代码块
+                if (instance == null)           // 第二重检查锁定
+                    instance = new SingleDCL(); // 注意：非原子操作
             }
         }
         return instance;
@@ -56,23 +58,23 @@ class SingleDCL {
  * 懒汉式，线程安全的单例模式
  * url：https://www.runoob.com/design-pattern/singleton-pattern.html
  */
-public class SingleObject {
+class SingleLazy {
     //申明一个私有单例模式对象
-    private static SingleObject instance;
+    private static SingleLazy instance;
 
     /**
      * 私有构造函数
      */
-    private SingleObject() {
+    private SingleLazy() {
     }
 
     /**
      * @return
      * @see 唯一获取对象的方法
      */
-    public static synchronized SingleObject getInstance() {
+    public static synchronized SingleLazy getInstance() {
         if (instance == null)
-            instance = new SingleObject();  //延迟加载，区别于饿汉式
+            instance = new SingleLazy();  //延迟加载，区别于饿汉式
         return instance;
     }
 

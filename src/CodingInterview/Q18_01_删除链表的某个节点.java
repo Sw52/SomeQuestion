@@ -21,7 +21,7 @@ public class Q18_01_删除链表的某个节点 {
             pTodelete.next = pTodelete.next.next;
         } else if (pHead == pTodelete) {  //链表只有一个节点
             pHead = null;
-        } else {  //链表中优多个节点，而待删除的是尾节点
+        } else {  //链表中有多个节点，而待删除的是尾节点
             ListNode pNode = pHead;
             while (pNode.next != pTodelete) {
                 pNode = pNode.next;

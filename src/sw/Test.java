@@ -1,9 +1,6 @@
 package sw;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.*;
 
 public class Test {
     public ArrayList<Integer> GetLeastNumbers_Solution(int[] input, int k) {
@@ -95,16 +92,23 @@ public class Test {
 //        }
 
         //jdk1.8新特性，接口可以定义默认函数
-        ff g = new ff();
-        g.hello();
-        g.hhh();
-        test.hh();
-        HashMap<Integer, Integer> hashMap = new HashMap<>();
-        hashMap.put(null, null);
-        System.out.println(hashMap.get(null));
-        hashMap.put(5, null);
-        System.out.println(hashMap.get(5));
-
+//        ff g = new ff();
+//        g.hello();
+//        g.hhh();
+//        test.hh();
+//        HashMap<Integer, Integer> hashMap = new HashMap<>();
+//        hashMap.put(null, null);
+//        System.out.println(hashMap.get(null));
+//        hashMap.put(5, null);
+//        System.out.println(hashMap.get(5));
+        Vector<Integer> vector = new Vector<>();
+        for (int i = 0; i < 200; i++) {
+            vector.add(i);
+        }
+        for (int i:vector
+             ) {
+            System.out.println(i);
+        }
     }
 
 }
