@@ -5,14 +5,21 @@ import java.util.Scanner;
 
 public class Main {
 
-    public void solution() {
-
+    public StringBuilder solution(String string) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 1; i < string.length(); i++) {
+            if (string.charAt(i)>='A'&&string.charAt(i)<='z')
+                sb.append(string.charAt(i));
+            if (string.charAt(i)=='<')
+                break;
+        }
+        return sb;
     }
 
     public static void main(String[] args) {
         Main ma = new Main();
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        System.out.println(n);
+        String str = sc.next();
+        System.out.println(ma.solution(str));
     }
 }

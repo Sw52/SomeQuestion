@@ -1,6 +1,12 @@
 package CodingInterview;
 
 public class 合并两个排序的链表 {
+    /**
+     * @see 合并两个有序的链表
+     * @param list1
+     * @param list2
+     * @return
+     */
     public static ListNode Merge(ListNode list1, ListNode list2) {
         if (list1 == null)
             return list2;

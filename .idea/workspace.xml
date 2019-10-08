@@ -2,32 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7df3224-ba9f-4a5f-a280-0231161eb4c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Cisic/Problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Cisic/Problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Cisic/Problem3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Vivo/Problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Vivo/Problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Vivo/Problem3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Baidu/Problem1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Baidu/Problem2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Baidu/Problem3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterVIew/Cisic/Problem4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Wangyi/Problem1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Wangyi/Problem2/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Wangyi/Problem2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Wangyi/Problem3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Wangyi/Problem4/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test$ff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test$ff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test$test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test$test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/二叉树的打印.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/二叉树的打印.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/合并两个排序的链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/合并两个排序的链表.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Cisic/Problem1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Cisic/Problem1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/设计模式/SingleDCL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/设计模式/SingleDCL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/设计模式/SingleObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/practice/设计模式/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q18_01_删除链表的某个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q18_01_删除链表的某个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterVIew/Wangyi/Problem1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterVIew/Wangyi/Problem2/ListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterVIew/Wangyi/Problem2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterVIew/Wangyi/Problem3/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterVIew/Wangyi/Problem4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/二叉树的打印.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/二叉树的打印.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/合并两个排序的链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/合并两个排序的链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterVIew/Cisic/Problem1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Cisic/Problem1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sw/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/practice/设计模式/SingleObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/practice/设计模式/SingleObject.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/InterVIew/Cisic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/InterVIew/Baidu" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,18 +64,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="InterVIew.Cisic.Problem4" />
       <recent name="InterVIew.Cisic.Problem3" />
       <recent name="InterVIew.Cisic.Problem2" />
       <recent name="InterVIew.Vivo.Problem3" />
       <recent name="InterVIew.Vivo.Problem2" />
-      <recent name="InterVIew.YouDao.Problem4" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/InterVIew/Baidu" />
       <recent name="$PROJECT_DIR$/src/InterVIew/Cisic" />
       <recent name="$PROJECT_DIR$/src/InterVIew/Vivo" />
       <recent name="$PROJECT_DIR$/src/InterVIew/YouDao" />
       <recent name="$PROJECT_DIR$/src/InterVIew/Wangyi" />
-      <recent name="$PROJECT_DIR$/src/InterVIew/WeiZhongYinHang" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -103,13 +90,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterVIew.Vivo.Problem1.Main" />
+  <component name="RunManager" selected="Application.打印N个丑数">
+    <configuration name="二叉树的镜像" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingInterview.二叉树的镜像" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterVIew.Vivo.Problem1.*" />
+          <option name="PATTERN" value="CodingInterview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterVIew.Baidu.Problem1.Main" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterVIew.Baidu.Problem1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterVIew.Vivo.Problem2.Main" />
+      <option name="MAIN_CLASS_NAME" value="InterVIew.Baidu.Problem2.Main" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterVIew.Vivo.Problem2.*" />
+          <option name="PATTERN" value="InterVIew.Baidu.Problem2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +131,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterVIew.Vivo.Problem3.Main" />
+      <option name="MAIN_CLASS_NAME" value="InterVIew.Baidu.Problem3.Main" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterVIew.Vivo.Problem3.*" />
+          <option name="PATTERN" value="InterVIew.Baidu.Problem3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,25 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterVIew.Cisic.Problem1.Main" />
+    <configuration name="打印N个丑数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingInterview.打印N个丑数" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterVIew.Cisic.Problem1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.Test" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sw.*" />
+          <option name="PATTERN" value="CodingInterview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.打印N个丑数" />
+        <item itemvalue="Application.二叉树的镜像" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +231,9 @@
       <workItem from="1568961158980" duration="11152000" />
       <workItem from="1569025305393" duration="11261000" />
       <workItem from="1569134049053" duration="6144000" />
-      <workItem from="1569152736805" duration="664000" />
+      <workItem from="1569152736805" duration="9931000" />
+      <workItem from="1569579780202" duration="2669000" />
+      <workItem from="1570018442992" duration="1232000" />
     </task>
     <servers />
   </component>
@@ -1521,6 +1510,16 @@
           <url>file://$PROJECT_DIR$/src/InterVIew/Vivo/Problem1/Main.java</url>
           <line>39</line>
           <option name="timeStamp" value="850" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Cisic/Problem1/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="852" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterVIew/Cisic/Problem1/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="853" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

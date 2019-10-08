@@ -106,6 +106,10 @@ public class 二叉树的打印 {
     }
 
 
+    /**
+     * 测试
+     * @param args
+     */
     public static void main(String[] args) {
 
         /*  构建二叉树
