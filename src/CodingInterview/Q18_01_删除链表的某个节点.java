@@ -77,27 +77,28 @@ public class Q18_01_删除链表的某个节点 {
     }
 
     public static void main(String[] args) {
-        ListNode pHead = new ListNode(2);
+        ListNode pHead = new ListNode(1);
         ListNode p2 = new ListNode(2);
         ListNode p3 = new ListNode(4);
         ListNode p4 = new ListNode(5);
         ListNode p5 = new ListNode(6);
 
-        pHead.next = p2;
+        //pHead.next = p2;
         p2.next = p3;
         p3.next = p4;
         p4.next = p5;
 
         Q18_01_删除链表的某个节点 q18_01_deleteNodeInList = new Q18_01_删除链表的某个节点();
         //删除测试
+        ListNode.printListNode(pHead);
         q18_01_deleteNodeInList.deleteNode(pHead, pHead);
-        q18_01_deleteNodeInList.deleteNode(pHead, p5);
-
+        //q18_01_deleteNodeInList.deleteNode(pHead, p5);
+        ListNode.printListNode(pHead);
         //重复节点删除测试
-        ListNode pf;
-        pf = q18_01_deleteNodeInList.deleteDuplication(pHead);
-        q18_01_deleteNodeInList.deleteDuplication(pf);
-        ListNode.printListNode(pf);
+//        ListNode pf;
+//        pf = q18_01_deleteNodeInList.deleteDuplication(pHead);
+//        q18_01_deleteNodeInList.deleteDuplication(pf);
+//        ListNode.printListNode(pf);
 
     }
 

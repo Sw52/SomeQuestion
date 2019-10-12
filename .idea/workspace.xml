@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7df3224-ba9f-4a5f-a280-0231161eb4c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Baidu/Problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Baidu/Problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Baidu/Problem3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterVIew/Cisic/Problem4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/二叉树的打印.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/二叉树的打印.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/合并两个排序的链表.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/合并两个排序的链表.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Cisic/Problem1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Cisic/Problem1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q18_01_删除链表的某个节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q18_01_删除链表的某个节点.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test$ff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test$ff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test$test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test$test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/二叉树的打印.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/二叉树的打印.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/合并两个排序的链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/合并两个排序的链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterVIew/Cisic/Problem1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterVIew/Cisic/Problem1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q18_01_删除链表的某个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q18_01_删除链表的某个节点.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/二叉树的镜像.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q27_二叉树的镜像.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingInterview/合并两个排序的链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q25_合并两个排序的链表.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sw/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,59 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.打印N个丑数">
-    <configuration name="二叉树的镜像" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingInterview.二叉树的镜像" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodingInterview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterVIew.Baidu.Problem1.Main" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterVIew.Baidu.Problem1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterVIew.Baidu.Problem2.Main" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterVIew.Baidu.Problem2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterVIew.Baidu.Problem3.Main" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterVIew.Baidu.Problem3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="打印N个丑数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodingInterview.打印N个丑数" />
       <module name="interviewQuestion" />
@@ -156,13 +102,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q18_01_删除链表的某个节点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingInterview.Q18_01_删除链表的某个节点" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodingInterview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q27_二叉树的镜像" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodingInterview.Q27_二叉树的镜像" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodingInterview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.Sort" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.Test" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="集合交差并" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.集合交差并" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Q18_01_删除链表的某个节点" />
+        <item itemvalue="Application.Sort" />
         <item itemvalue="Application.打印N个丑数" />
-        <item itemvalue="Application.二叉树的镜像" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Q27_二叉树的镜像" />
       </list>
     </recent_temporary>
   </component>
@@ -234,6 +245,8 @@
       <workItem from="1569152736805" duration="9931000" />
       <workItem from="1569579780202" duration="2669000" />
       <workItem from="1570018442992" duration="1232000" />
+      <workItem from="1570499788778" duration="3737000" />
+      <workItem from="1570627961887" duration="3153000" />
     </task>
     <servers />
   </component>
@@ -1520,6 +1533,56 @@
           <url>file://$PROJECT_DIR$/src/InterVIew/Cisic/Problem1/Main.java</url>
           <line>10</line>
           <option name="timeStamp" value="853" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="854" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="855" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/ListNode.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="861" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/ListNode.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="866" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/Q18_01_删除链表的某个节点.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="867" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/Q18_01_删除链表的某个节点.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="868" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/ListNode.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="869" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/ListNode.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="870" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/ListNode.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="871" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CodingInterview/ListNode.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="872" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

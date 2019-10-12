@@ -3,6 +3,12 @@ package sw;
 import java.util.*;
 
 public class Test {
+    public int hh(){
+        return 0;
+    }
+    public double hh(int x){
+        return 1.0;
+    }
     public ArrayList<Integer> GetLeastNumbers_Solution(int[] input, int k) {
         ArrayList<Integer> list = new ArrayList();
         if (k > input.length)
@@ -101,15 +107,20 @@ public class Test {
 //        System.out.println(hashMap.get(null));
 //        hashMap.put(5, null);
 //        System.out.println(hashMap.get(5));
-        Vector<Integer> vector = new Vector<>();
-        for (int i = 0; i < 200; i++) {
-            vector.add(i);
-        }
-        for (int i:vector
-             ) {
-            System.out.println(i);
-        }
+//        Vector<Integer> vector = new Vector<>();
+//        for (int i = 0; i < 200; i++) {
+//            vector.add(i);
+//        }
+//        for (int i:vector
+//             ) {
+//            System.out.println(i);
+//        }
 
+        Scanner sc = new Scanner(System.in);
+        int x =sc.nextInt();
+        Test test = new Test();
+        System.out.println(test.hh());
+        System.out.println(test.hh(1));
     }
 
 }

@@ -1,7 +1,7 @@
 package CodingInterview;
 
 
-public class 二叉树的镜像 {
+public class Q27_二叉树的镜像 {
 
     /**
      * @see 操作给定的二叉树，将其变换为源二叉树的镜像。

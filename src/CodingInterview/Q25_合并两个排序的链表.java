@@ -1,6 +1,6 @@
 package CodingInterview;
 
-public class 合并两个排序的链表 {
+public class Q25_合并两个排序的链表 {
     /**
      * @see 合并两个有序的链表
      * @param list1

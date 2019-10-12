@@ -28,10 +28,12 @@ class ListNode {
      * @see 打印链表
      */
     public static void printListNode(ListNode listNode) {
-        if (listNode == null)
+        if (listNode != null)
+            System.out.print(listNode.val);
+        else
             return;
-        System.out.print(listNode.val);
-        printListNode(listNode.next);
+        if (listNode.next!=null)
+            printListNode(listNode.next);
     }
 
 }
