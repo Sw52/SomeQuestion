@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7df3224-ba9f-4a5f-a280-0231161eb4c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/FileOperation/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/FileOperation/readProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/FileOperation/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw/practice/FileOperation/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q18_01_删除链表的某个节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/Q18_01_删除链表的某个节点.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test$ff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test$ff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test$test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test$test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewQuestion/sw/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/Q18_01_删除链表的某个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q18_01_删除链表的某个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/二叉树的镜像.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q27_二叉树的镜像.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingInterview/合并两个排序的链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingInterview/Q25_合并两个排序的链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sw/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sw/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/二叉树的镜像.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/CodingInterview/合并两个排序的链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Duxiaoman/Problem1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/Duxiaoman/Problem2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/WeiZhongYinHang/Problem1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/WeiZhongYinHang/Problem2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/InterVIew/WeiZhongYinHang/Problem3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewQuestion/META-INF/interviewQuestion.kotlin_module" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,45 @@
   <component name="FavoritesManager">
     <favorites_list name="interviewQuestion" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/practice/FileOperation/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sw/practice/FileOperation/readProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sw/practice/FileOperation/test.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -36,16 +79,67 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sw/practice/FileOperation/test.java" />
+        <option value="$PROJECT_DIR$/src/sw/practice/FileOperation/FileOperation.java" />
+        <option value="$PROJECT_DIR$/src/sw/practice/FileOperation/test.properties" />
+        <option value="$PROJECT_DIR$/src/sw/practice/FileOperation/readProperties.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
+  </component>
   <component name="ProjectId" id="1OmIf29koMDb2sIGWe1zjjtEpFX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="interviewQuestion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interviewQuestion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interviewQuestion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interviewQuestion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/InterVIew/Baidu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sw/practice/FileOperation" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,6 +155,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/sw/practice/FileOperation" />
+      <recent name="$PROJECT_DIR$/src/sw/practice" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="InterVIew.Cisic.Problem4" />
       <recent name="InterVIew.Cisic.Problem3" />
@@ -69,11 +169,11 @@
       <recent name="InterVIew.Vivo.Problem2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sw/practice/FileOperation" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/InterVIew/Baidu" />
       <recent name="$PROJECT_DIR$/src/InterVIew/Cisic" />
       <recent name="$PROJECT_DIR$/src/InterVIew/Vivo" />
-      <recent name="$PROJECT_DIR$/src/InterVIew/YouDao" />
-      <recent name="$PROJECT_DIR$/src/InterVIew/Wangyi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -88,35 +188,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="打印N个丑数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingInterview.打印N个丑数" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodingInterview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.readProperties">
     <configuration name="Q18_01_删除链表的某个节点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodingInterview.Q18_01_删除链表的某个节点" />
-      <module name="interviewQuestion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodingInterview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q27_二叉树的镜像" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodingInterview.Q27_二叉树的镜像" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
@@ -154,12 +228,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="集合交差并" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sw.practice.集合交差并" />
+    <configuration name="readProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.FileOperation.readProperties" />
       <module name="interviewQuestion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sw.practice.*" />
+          <option name="PATTERN" value="sw.practice.FileOperation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sw.practice.FileOperation.test" />
+      <module name="interviewQuestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sw.practice.FileOperation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,13 +256,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.readProperties" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Q18_01_删除链表的某个节点" />
         <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.打印N个丑数" />
-        <item itemvalue="Application.Q27_二叉树的镜像" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -246,9 +345,62 @@
       <workItem from="1569579780202" duration="2669000" />
       <workItem from="1570018442992" duration="1232000" />
       <workItem from="1570499788778" duration="3737000" />
-      <workItem from="1570627961887" duration="3153000" />
+      <workItem from="1570627961887" duration="4268000" />
+      <workItem from="1571228230315" duration="12000" />
+      <workItem from="1571228667340" duration="20000" />
+      <workItem from="1572938362995" duration="633000" />
+      <workItem from="1573305694338" duration="634000" />
+      <workItem from="1573352153158" duration="14000" />
+      <workItem from="1576131676333" duration="482000" />
+      <workItem from="1576220864686" duration="447000" />
+      <workItem from="1576243785644" duration="8065000" />
+      <workItem from="1576390785784" duration="55000" />
+      <workItem from="1576390859225" duration="744000" />
+      <workItem from="1576391628754" duration="81000" />
+      <workItem from="1576391952094" duration="45000" />
+      <workItem from="1576392027159" duration="664000" />
+      <workItem from="1576393183519" duration="34000" />
+      <workItem from="1576393695508" duration="2971000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3005000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21472053" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32937366" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3099352" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -259,8 +411,28 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -271,1318 +443,1590 @@
       <path value="$PROJECT_DIR$/src" />
     </ignored-roots>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="234" y="281" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576390797845">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="234" y="281" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1576390797845" />
+    <state width="1344" height="354" key="GridCell.Tab.0.bottom" timestamp="1576332779844">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1344" height="354" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576332779844" />
+    <state width="1344" height="354" key="GridCell.Tab.0.center" timestamp="1576332779844">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1344" height="354" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576332779844" />
+    <state width="1344" height="354" key="GridCell.Tab.0.left" timestamp="1576332779840">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1344" height="354" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576332779840" />
+    <state width="1344" height="354" key="GridCell.Tab.0.right" timestamp="1576332779844">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1344" height="354" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576332779844" />
+    <state width="1344" height="354" key="GridCell.Tab.1.bottom" timestamp="1576332779845">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1344" height="354" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576332779845" />
+    <state width="1344" height="354" key="GridCell.Tab.1.center" timestamp="1576332779844">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1344" height="354" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576332779844" />
+    <state width="1344" height="354" key="GridCell.Tab.1.left" timestamp="1576332779844">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1344" height="354" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576332779844" />
+    <state width="1344" height="354" key="GridCell.Tab.1.right" timestamp="1576332779845">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1344" height="354" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576332779845" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1576392030251">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1576392030251" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1576392040648">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1576392040648" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
           <line>40</line>
+          <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
           <line>42</line>
+          <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
           <line>32</line>
+          <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
           <line>33</line>
+          <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
           <line>34</line>
+          <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
           <line>35</line>
+          <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
           <line>21</line>
+          <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
           <line>19</line>
+          <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
           <line>24</line>
+          <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
           <line>27</line>
+          <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q20_字符串表示的数值.java</url>
           <line>26</line>
+          <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///usr/local/java/jdk1.8.0_211/src.zip!/java/lang/ThreadLocal.java</url>
           <line>168</line>
+          <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem1/Main.java</url>
           <line>25</line>
+          <properties />
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem1/Main.java</url>
           <line>24</line>
+          <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem1/Main.java</url>
           <line>22</line>
+          <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem1/Main.java</url>
           <line>21</line>
+          <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem1/Main.java</url>
           <line>23</line>
+          <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem1/Main.java</url>
           <line>20</line>
+          <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem1/Main.java</url>
           <line>18</line>
+          <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem1/Main.java</url>
           <line>19</line>
+          <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem1/Main.java</url>
           <line>17</line>
+          <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem1/Main.java</url>
           <line>16</line>
+          <properties />
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem2/Main.java</url>
           <line>11</line>
+          <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem2/Main.java</url>
           <line>12</line>
+          <properties />
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem2/Main.java</url>
           <line>13</line>
+          <properties />
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem2/Main.java</url>
           <line>14</line>
+          <properties />
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem2/Main.java</url>
           <line>15</line>
+          <properties />
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem2/Main.java</url>
           <line>16</line>
+          <properties />
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem2/Main.java</url>
           <line>17</line>
+          <properties />
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem2/Main.java</url>
           <line>18</line>
+          <properties />
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem2/Main.java</url>
           <line>19</line>
+          <properties />
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/byteDance/Problem2/Main.java</url>
           <line>20</line>
+          <properties />
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhh360.java</url>
           <line>14</line>
+          <properties />
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhh360.java</url>
           <line>19</line>
+          <properties />
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhh360.java</url>
           <line>13</line>
+          <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhh360.java</url>
           <line>12</line>
+          <properties />
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhh360.java</url>
           <line>20</line>
+          <properties />
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhh360.java</url>
           <line>21</line>
+          <properties />
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhh360.java</url>
           <line>15</line>
+          <properties />
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhh360.java</url>
           <line>16</line>
+          <properties />
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhh360.java</url>
           <line>17</line>
+          <properties />
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhhh360.java</url>
           <line>11</line>
+          <properties />
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhhh360.java</url>
           <line>14</line>
+          <properties />
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhhh360.java</url>
           <line>15</line>
+          <properties />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhhh360.java</url>
           <line>16</line>
+          <properties />
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhhh360.java</url>
           <line>22</line>
+          <properties />
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhhh360.java</url>
           <line>23</line>
+          <properties />
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhhh360.java</url>
           <line>9</line>
+          <properties />
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hhh/hhhh360.java</url>
           <line>7</line>
+          <properties />
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Test/Test1.java</url>
           <line>32</line>
+          <properties />
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Test/Test1.java</url>
           <line>33</line>
+          <properties />
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Test/Test1.java</url>
           <line>34</line>
+          <properties />
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Test/Test2.java</url>
           <line>39</line>
+          <properties />
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Test/Test2.java</url>
           <line>40</line>
+          <properties />
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Test/Test2.java</url>
           <line>47</line>
+          <properties />
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Test/Test3.java</url>
           <line>32</line>
+          <properties />
           <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Test/Test4.java</url>
           <line>60</line>
+          <properties />
           <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Test/Test4.java</url>
           <line>62</line>
+          <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Test/Test4.java</url>
           <line>64</line>
+          <properties />
           <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/Test/Test4.java</url>
           <line>66</line>
+          <properties />
           <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem3/Main.java</url>
           <line>17</line>
+          <properties />
           <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>29</line>
+          <properties />
           <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>30</line>
+          <properties />
           <option name="timeStamp" value="170" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>31</line>
+          <properties />
           <option name="timeStamp" value="171" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>33</line>
+          <properties />
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>34</line>
+          <properties />
           <option name="timeStamp" value="173" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>36</line>
+          <properties />
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>38</line>
+          <properties />
           <option name="timeStamp" value="175" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>35</line>
+          <properties />
           <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>32</line>
+          <properties />
           <option name="timeStamp" value="177" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>20</line>
+          <properties />
           <option name="timeStamp" value="178" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>11</line>
+          <properties />
           <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>9</line>
+          <properties />
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>10</line>
+          <properties />
           <option name="timeStamp" value="181" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>12</line>
+          <properties />
           <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>13</line>
+          <properties />
           <option name="timeStamp" value="183" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>14</line>
+          <properties />
           <option name="timeStamp" value="184" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>19</line>
+          <properties />
           <option name="timeStamp" value="185" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>21</line>
+          <properties />
           <option name="timeStamp" value="186" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>22</line>
+          <properties />
           <option name="timeStamp" value="187" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>28</line>
+          <properties />
           <option name="timeStamp" value="189" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>23</line>
+          <properties />
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>37</line>
+          <properties />
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>39</line>
+          <properties />
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>40</line>
+          <properties />
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>41</line>
+          <properties />
           <option name="timeStamp" value="195" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>42</line>
+          <properties />
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>46</line>
+          <properties />
           <option name="timeStamp" value="200" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>47</line>
+          <properties />
           <option name="timeStamp" value="201" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>48</line>
+          <properties />
           <option name="timeStamp" value="202" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>49</line>
+          <properties />
           <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>50</line>
+          <properties />
           <option name="timeStamp" value="205" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>51</line>
+          <properties />
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>52</line>
+          <properties />
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>53</line>
+          <properties />
           <option name="timeStamp" value="208" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>54</line>
+          <properties />
           <option name="timeStamp" value="209" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>55</line>
+          <properties />
           <option name="timeStamp" value="210" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>56</line>
+          <properties />
           <option name="timeStamp" value="211" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Tx/First/Problem4/Main.java</url>
           <line>57</line>
+          <properties />
           <option name="timeStamp" value="212" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>37</line>
+          <properties />
           <option name="timeStamp" value="244" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>38</line>
+          <properties />
           <option name="timeStamp" value="245" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>39</line>
+          <properties />
           <option name="timeStamp" value="246" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>41</line>
+          <properties />
           <option name="timeStamp" value="247" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>40</line>
+          <properties />
           <option name="timeStamp" value="248" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>42</line>
+          <properties />
           <option name="timeStamp" value="249" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>43</line>
+          <properties />
           <option name="timeStamp" value="250" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>44</line>
+          <properties />
           <option name="timeStamp" value="251" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>45</line>
+          <properties />
           <option name="timeStamp" value="252" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>51</line>
+          <properties />
           <option name="timeStamp" value="253" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>52</line>
+          <properties />
           <option name="timeStamp" value="254" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>53</line>
+          <properties />
           <option name="timeStamp" value="255" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>54</line>
+          <properties />
           <option name="timeStamp" value="256" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>55</line>
+          <properties />
           <option name="timeStamp" value="257" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>56</line>
+          <properties />
           <option name="timeStamp" value="258" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/最长递增子序列的个数.java</url>
           <line>57</line>
+          <properties />
           <option name="timeStamp" value="259" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java</url>
           <line>13</line>
+          <properties />
           <option name="timeStamp" value="303" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java</url>
           <line>14</line>
+          <properties />
           <option name="timeStamp" value="304" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java</url>
           <line>15</line>
+          <properties />
           <option name="timeStamp" value="308" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java</url>
           <line>17</line>
+          <properties />
           <option name="timeStamp" value="309" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Yuanfudao/Problem1/Main.java</url>
           <line>18</line>
+          <properties />
           <option name="timeStamp" value="310" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>66</line>
+          <properties />
           <option name="timeStamp" value="335" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>67</line>
+          <properties />
           <option name="timeStamp" value="336" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>68</line>
+          <properties />
           <option name="timeStamp" value="337" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>69</line>
+          <properties />
           <option name="timeStamp" value="338" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>70</line>
+          <properties />
           <option name="timeStamp" value="339" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>71</line>
+          <properties />
           <option name="timeStamp" value="340" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>74</line>
+          <properties />
           <option name="timeStamp" value="341" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>75</line>
+          <properties />
           <option name="timeStamp" value="342" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>76</line>
+          <properties />
           <option name="timeStamp" value="349" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>72</line>
+          <properties />
           <option name="timeStamp" value="350" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>73</line>
+          <properties />
           <option name="timeStamp" value="351" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>78</line>
+          <properties />
           <option name="timeStamp" value="352" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>79</line>
+          <properties />
           <option name="timeStamp" value="353" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>81</line>
+          <properties />
           <option name="timeStamp" value="355" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>80</line>
+          <properties />
           <option name="timeStamp" value="356" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>82</line>
+          <properties />
           <option name="timeStamp" value="357" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>86</line>
+          <properties />
           <option name="timeStamp" value="358" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>87</line>
+          <properties />
           <option name="timeStamp" value="359" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>88</line>
+          <properties />
           <option name="timeStamp" value="360" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>89</line>
+          <properties />
           <option name="timeStamp" value="361" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>90</line>
+          <properties />
           <option name="timeStamp" value="362" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>91</line>
+          <properties />
           <option name="timeStamp" value="363" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>92</line>
+          <properties />
           <option name="timeStamp" value="364" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>95</line>
+          <properties />
           <option name="timeStamp" value="365" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>96</line>
+          <properties />
           <option name="timeStamp" value="366" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>93</line>
+          <properties />
           <option name="timeStamp" value="367" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Ali/Problem2/Main.java</url>
           <line>94</line>
+          <properties />
           <option name="timeStamp" value="368" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>37</line>
+          <properties />
           <option name="timeStamp" value="472" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>40</line>
+          <properties />
           <option name="timeStamp" value="473" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>38</line>
+          <properties />
           <option name="timeStamp" value="474" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>41</line>
+          <properties />
           <option name="timeStamp" value="475" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>42</line>
+          <properties />
           <option name="timeStamp" value="476" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>43</line>
+          <properties />
           <option name="timeStamp" value="477" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>44</line>
+          <properties />
           <option name="timeStamp" value="480" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>48</line>
+          <properties />
           <option name="timeStamp" value="481" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>49</line>
+          <properties />
           <option name="timeStamp" value="483" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>36</line>
+          <properties />
           <option name="timeStamp" value="485" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>35</line>
+          <properties />
           <option name="timeStamp" value="486" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>33</line>
+          <properties />
           <option name="timeStamp" value="487" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>27</line>
+          <properties />
           <option name="timeStamp" value="491" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>28</line>
+          <properties />
           <option name="timeStamp" value="492" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>29</line>
+          <properties />
           <option name="timeStamp" value="493" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>30</line>
+          <properties />
           <option name="timeStamp" value="494" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>31</line>
+          <properties />
           <option name="timeStamp" value="495" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>32</line>
+          <properties />
           <option name="timeStamp" value="496" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>45</line>
+          <properties />
           <option name="timeStamp" value="497" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>46</line>
+          <properties />
           <option name="timeStamp" value="498" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>47</line>
+          <properties />
           <option name="timeStamp" value="499" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>50</line>
+          <properties />
           <option name="timeStamp" value="500" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>53</line>
+          <properties />
           <option name="timeStamp" value="501" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>54</line>
+          <properties />
           <option name="timeStamp" value="502" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>52</line>
+          <properties />
           <option name="timeStamp" value="505" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>51</line>
+          <properties />
           <option name="timeStamp" value="506" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Xc/Problem2/Main.java</url>
           <line>39</line>
+          <properties />
           <option name="timeStamp" value="507" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
           <line>12</line>
+          <properties />
           <option name="timeStamp" value="594" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
           <line>15</line>
+          <properties />
           <option name="timeStamp" value="595" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
           <line>17</line>
+          <properties />
           <option name="timeStamp" value="596" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
           <line>16</line>
+          <properties />
           <option name="timeStamp" value="597" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
           <line>18</line>
+          <properties />
           <option name="timeStamp" value="598" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
           <line>19</line>
+          <properties />
           <option name="timeStamp" value="599" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
           <line>20</line>
+          <properties />
           <option name="timeStamp" value="600" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem2/Main.java</url>
           <line>21</line>
+          <properties />
           <option name="timeStamp" value="601" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>15</line>
+          <properties />
           <option name="timeStamp" value="609" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>16</line>
+          <properties />
           <option name="timeStamp" value="610" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>17</line>
+          <properties />
           <option name="timeStamp" value="611" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>18</line>
+          <properties />
           <option name="timeStamp" value="612" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>19</line>
+          <properties />
           <option name="timeStamp" value="613" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>23</line>
+          <properties />
           <option name="timeStamp" value="614" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>22</line>
+          <properties />
           <option name="timeStamp" value="615" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>24</line>
+          <properties />
           <option name="timeStamp" value="616" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>26</line>
+          <properties />
           <option name="timeStamp" value="617" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>25</line>
+          <properties />
           <option name="timeStamp" value="618" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>27</line>
+          <properties />
           <option name="timeStamp" value="619" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>30</line>
+          <properties />
           <option name="timeStamp" value="620" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>32</line>
+          <properties />
           <option name="timeStamp" value="621" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>39</line>
+          <properties />
           <option name="timeStamp" value="623" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>28</line>
+          <properties />
           <option name="timeStamp" value="626" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>29</line>
+          <properties />
           <option name="timeStamp" value="627" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>31</line>
+          <properties />
           <option name="timeStamp" value="628" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>36</line>
+          <properties />
           <option name="timeStamp" value="629" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>38</line>
+          <properties />
           <option name="timeStamp" value="631" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>37</line>
+          <properties />
           <option name="timeStamp" value="632" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>20</line>
+          <properties />
           <option name="timeStamp" value="633" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>21</line>
+          <properties />
           <option name="timeStamp" value="634" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>35</line>
+          <properties />
           <option name="timeStamp" value="635" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>33</line>
+          <properties />
           <option name="timeStamp" value="637" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/XiaoMi/Problem1/Main.java</url>
           <line>34</line>
+          <properties />
           <option name="timeStamp" value="638" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>9</line>
+          <properties />
           <option name="timeStamp" value="654" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>10</line>
+          <properties />
           <option name="timeStamp" value="655" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>11</line>
+          <properties />
           <option name="timeStamp" value="656" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>13</line>
+          <properties />
           <option name="timeStamp" value="657" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>12</line>
+          <properties />
           <option name="timeStamp" value="658" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>14</line>
+          <properties />
           <option name="timeStamp" value="659" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>15</line>
+          <properties />
           <option name="timeStamp" value="660" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>16</line>
+          <properties />
           <option name="timeStamp" value="661" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>17</line>
+          <properties />
           <option name="timeStamp" value="662" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>18</line>
+          <properties />
           <option name="timeStamp" value="663" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>19</line>
+          <properties />
           <option name="timeStamp" value="664" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>20</line>
+          <properties />
           <option name="timeStamp" value="665" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>21</line>
+          <properties />
           <option name="timeStamp" value="666" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>22</line>
+          <properties />
           <option name="timeStamp" value="668" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>23</line>
+          <properties />
           <option name="timeStamp" value="669" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>24</line>
+          <properties />
           <option name="timeStamp" value="670" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Kdxf/Problem2/Main.java</url>
           <line>25</line>
+          <properties />
           <option name="timeStamp" value="672" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/国王和金矿.java</url>
           <line>18</line>
+          <properties />
           <option name="timeStamp" value="673" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/practice/国王和金矿.java</url>
           <line>16</line>
+          <properties />
           <option name="timeStamp" value="674" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q22_链表中倒数第k个节点.java</url>
           <line>20</line>
+          <properties />
           <option name="timeStamp" value="713" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q22_链表中倒数第k个节点.java</url>
           <line>21</line>
+          <properties />
           <option name="timeStamp" value="714" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q22_链表中倒数第k个节点.java</url>
           <line>22</line>
+          <properties />
           <option name="timeStamp" value="715" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q22_链表中倒数第k个节点.java</url>
           <line>23</line>
+          <properties />
           <option name="timeStamp" value="716" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q22_链表中倒数第k个节点.java</url>
           <line>26</line>
+          <properties />
           <option name="timeStamp" value="717" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q22_链表中倒数第k个节点.java</url>
           <line>27</line>
+          <properties />
           <option name="timeStamp" value="718" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q22_链表中倒数第k个节点.java</url>
           <line>28</line>
+          <properties />
           <option name="timeStamp" value="719" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q22_链表中倒数第k个节点.java</url>
           <line>30</line>
+          <properties />
           <option name="timeStamp" value="720" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Zhaoyinxinyongka/Problem3/Problem3/Main.java</url>
           <line>22</line>
+          <properties />
           <option name="timeStamp" value="755" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Zhaoyinxinyongka/Problem3/Problem3/Main.java</url>
           <line>23</line>
+          <properties />
           <option name="timeStamp" value="756" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Zhaoyinxinyongka/Problem3/Problem3/Main.java</url>
           <line>32</line>
+          <properties />
           <option name="timeStamp" value="758" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Wangyi/Problem1/Main.java</url>
           <line>58</line>
+          <properties />
           <option name="timeStamp" value="815" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Wangyi/Problem1/Main.java</url>
           <line>94</line>
+          <properties />
           <option name="timeStamp" value="820" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Vivo/Problem1/Main.java</url>
           <line>31</line>
+          <properties />
           <option name="timeStamp" value="840" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Vivo/Problem1/Main.java</url>
           <line>32</line>
+          <properties />
           <option name="timeStamp" value="841" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Vivo/Problem1/Main.java</url>
           <line>33</line>
+          <properties />
           <option name="timeStamp" value="842" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Vivo/Problem1/Main.java</url>
           <line>35</line>
+          <properties />
           <option name="timeStamp" value="843" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Vivo/Problem1/Main.java</url>
           <line>34</line>
+          <properties />
           <option name="timeStamp" value="844" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Vivo/Problem1/Main.java</url>
           <line>36</line>
+          <properties />
           <option name="timeStamp" value="845" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Vivo/Problem1/Main.java</url>
           <line>37</line>
+          <properties />
           <option name="timeStamp" value="846" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Vivo/Problem1/Main.java</url>
           <line>38</line>
+          <properties />
           <option name="timeStamp" value="847" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Vivo/Problem1/Main.java</url>
           <line>44</line>
+          <properties />
           <option name="timeStamp" value="848" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Vivo/Problem1/Main.java</url>
           <line>40</line>
+          <properties />
           <option name="timeStamp" value="849" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Vivo/Problem1/Main.java</url>
           <line>39</line>
+          <properties />
           <option name="timeStamp" value="850" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Cisic/Problem1/Main.java</url>
           <line>11</line>
+          <properties />
           <option name="timeStamp" value="852" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/InterVIew/Cisic/Problem1/Main.java</url>
           <line>10</line>
+          <properties />
           <option name="timeStamp" value="853" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
           <line>21</line>
+          <properties />
           <option name="timeStamp" value="854" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sw/BinarySerach.java</url>
           <line>6</line>
+          <properties />
           <option name="timeStamp" value="855" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodingInterview/ListNode.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="861" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodingInterview/ListNode.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="866" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q18_01_删除链表的某个节点.java</url>
           <line>21</line>
+          <properties />
           <option name="timeStamp" value="867" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CodingInterview/Q18_01_删除链表的某个节点.java</url>
           <line>22</line>
+          <properties />
           <option name="timeStamp" value="868" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodingInterview/ListNode.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="869" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodingInterview/ListNode.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="870" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodingInterview/ListNode.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="871" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CodingInterview/ListNode.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="872" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1591,5 +2035,48 @@
     <SUITE FILE_PATH="coverage/interviewQuestion$Sort.ic" NAME="Sort Coverage Results" MODIFIED="1564408806374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>CodingInterview.*</FILTER>
     </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sw/practice/FileOperation/FileOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3042">
+          <caret line="213" column="1" lean-forward="true" selection-start-line="213" selection-start-column="1" selection-end-line="213" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/practice/FileOperation/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_211/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="433" selection-start-line="433" selection-end-line="433" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/practice/FileOperation/test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sw/practice/FileOperation/readProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
